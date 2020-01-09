@@ -1,0 +1,28 @@
+.intro {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  .intro-name {
+    display: flex;
+    justify-content: center;
+    font-size: 3.25rem;
+    font-family: Bookman;
+    margin: 0;
+  }
+  .intro-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+    font-family: Bookman;
+  }
+  .intro-tech-stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 0;
+    font-family: Bookman;
+  }
+}

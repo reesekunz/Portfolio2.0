@@ -30,9 +30,8 @@ function HireMePlz() {
             I'm open to relocation or remote work!
           </div>
           <div className="content">
-            If you are a fellow tiki drink enthusiast, or someone that just
-            wants to chat, ask a question, or meet up for a coffee, let me know
-            🙂
+            If you are someone that just wants to chat, ask a question, or meet
+            up for coffee, let me know 🙂
           </div>
         </div>
         <div className="hire-me-img-container">

@@ -22,8 +22,6 @@
   .project-container {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
 
     .row {
       display: flex;
@@ -33,20 +31,44 @@
       .project {
         border: 1px solid black;
         box-shadow: 3px 3px black;
-        padding: 1.5%;
+        // padding: 1.5%;
         margin-top: 4%;
         background-color: floralwhite;
+        width: 430px;
+        height: 500px;
+        font-family: "Oswald", sans-serif;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: flex-start;
+
         img {
           height: 250px;
-          width: 400px;
+          width: 100%;
           border: 1px solid black;
+        }
+        .project-name {
+          margin: 0;
+          font-size: 1.3rem;
+          margin-top: 4%;
+        }
+        .tech-stack {
+          margin: 0;
+          font-style: italic;
+          margin-top: 4%;
+        }
+        .project-description {
+          text-align: left;
+          width: 80%;
+          padding-left: 10%;
+          margin: 0;
+          margin-top: 6%;
         }
         .linkz {
           display: flex;
           flex-direction: row;
           justify-content: space-evenly;
           align-items: center;
-          margin-bottom: 3%;
+          margin-top: 5%;
         }
       }
     }

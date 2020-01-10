@@ -19,4 +19,35 @@
       );
     }
   }
+
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    tr {
+      display: flex;
+      justify-content: space-evenly;
+      th {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 0%;
+        margin-left: 3%;
+        font-size: 1.25rem;
+      }
+    }
+
+    .table-row {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 5%;
+    }
+  }
 }

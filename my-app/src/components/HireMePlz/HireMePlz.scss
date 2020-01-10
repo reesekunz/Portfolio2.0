@@ -1,0 +1,116 @@
+.hire-me-container {
+  padding-bottom: 5%;
+  margin: 24px 48px;
+  border-top: 1px solid lightgray;
+  .section-header {
+    // margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: Bookman;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    span {
+      margin-top: 3%;
+      background-image: linear-gradient(
+        transparent 2rem,
+        #0093e9 0%,
+        #80d0c7 100%
+      );
+    }
+  }
+  .hire-me-content {
+    display: flex;
+    justify-content: space-around;
+    .hire-me-text {
+      margin: 30px 0 0 0;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-size: 1.3rem;
+      font-family: "Oswald", sans-serif;
+      li {
+        margin-top: 4.5%;
+      }
+      .content {
+        text-align: left;
+        padding: 3% 0;
+      }
+    }
+    .hire-me-img-container {
+      margin-right: 6%;
+      margin-left: 0;
+      .hire-me-img {
+        height: 320px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .get-in-touch {
+          background-color: black;
+          color: white;
+          border: 1px solid black;
+          margin-bottom: 70px;
+          padding: 24px;
+          width: 140px;
+          font-size: 1.3rem;
+          width: 50%;
+          &:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+          }
+        }
+      }
+    }
+  }
+  .popup-container {
+    margin-top: 5%;
+    display: none;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    .contact-popup {
+      border: 1px solid black;
+      background-color: white;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      color: black;
+      padding-left: 2%;
+      padding-right: 1.5%;
+      display: flex;
+      flex-direction: column;
+      //   justify-content: space-between;
+      height: 180px;
+      width: 420px;
+      .contact-popup-row1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+          display: flex;
+          justify-content: center;
+          margin-left: 30%;
+        }
+        .x {
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+      .email {
+        font-size: 1.2rem;
+        margin-top: 4%;
+        margin-bottom: 8%;
+      }
+      .contact-socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    }
+  }
+}

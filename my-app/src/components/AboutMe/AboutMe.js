@@ -1,7 +1,6 @@
 import React from "react";
 import "./AboutMe.scss";
 import ReeseIMG from "../../images/ReeseIMG.png";
-import { IoMdWine } from "react-icons/io";
 
 function AboutMe() {
   return (
@@ -11,21 +10,20 @@ function AboutMe() {
       </div>
       <div className="about-me-content">
         <div className="about-me-text">
-          <li>
-            Currently a full-time Lambda School student living in Phoenix, AZ.
-          </li>
-          <li>
-            Recent University of Arizona graduate with a Bachelor's in
-            Marketing.
-          </li>
-          <li>
-            Interested in helping fix societal problems and improving others'
+          <div className="content">
+            I'm currently enrolled as a full-time{" "}
+            <a href="https://lambdaschool.com/">Lambda School</a> student.
+            Before Lambda I graduated from the University of Arizona with a
+            Bachelor's in Marketing.
+          </div>
+          <div className="content">
+            I decided to pursue a career in web development because I'm
+            interested in helping fix societal problems and improving others'
             quality of life through technology.
-          </li>
-          <li>
-            Other interests include: basketball, creative writing, watching TV,
-            video games, and tiki drinks <IoMdWine size={15} color="black" /> .
-          </li>
+          </div>
+          <div className="content">
+            Other interests include: 🏀, ✍️, {""}📺, {""}🎮, {""}🍹
+          </div>
         </div>
         <div className="about-me-img-container">
           <div className="about-me-img">

@@ -1,0 +1,51 @@
+.about-me-container {
+  margin: 24px 48px;
+  .section-header {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: Bookman;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    span {
+      margin-top: 3%;
+    //   margin-bottom: 2%;
+      background-image: linear-gradient(
+        transparent 2rem,
+        #0093e9 0%,
+        #80d0c7 100%
+      );
+    }
+  }
+  .about-me-content {
+    display: flex;
+    justify-content: space-around;
+    .about-me-text {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-size: 1.3rem;
+      font-family: Arial, Helvetica, sans-serif;
+      li {
+        margin-top: 4.5%;
+      }
+    }
+    .about-me-img-container {
+      margin-right: 3%;
+      margin-left: 0;
+
+      .about-me-img {
+        height: 300px;
+        border-radius: 50%;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        border: 2px solid black;
+      }
+    }
+  }
+}

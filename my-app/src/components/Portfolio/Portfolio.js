@@ -48,7 +48,7 @@ function Portfolio() {
             <h3 className="project-name">Random Acts Generator</h3>
             <p className="tech-stack">JavaScript, React</p>
             <p className="project-description">
-              Worked with a Front-End team of four - random acts of kindness are
+              Worked with a front-end team of four. Random acts of kindness are
               generated for the user to perform based on their added contacts.
             </p>
 

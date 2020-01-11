@@ -34,9 +34,9 @@ function HireMePlz() {
             up for coffee, let me know 🙂
           </div>
         </div>
-        <div className="hire-me-img-container">
-          <div className="hire-me-img">
-            <div className="get-in-touch" onClick={openContactForm}>
+        <div className="hire-me-wrapper">
+          <div className="hire-me-btn-container">
+            <div className="get-in-touch-btn" onClick={openContactForm}>
               Get in touch
             </div>
           </div>

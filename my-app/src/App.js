@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./App.scss";
 // import "./Typography.scss";
 // import { Route } from "react-router-dom";
@@ -8,9 +9,17 @@ import Portfolio from "./components/Portfolio/Portfolio";
 // import Blog from "./components/Blog/Blog";
 import HireMePlz from "./components/HireMePlz/HireMePlz";
 import Footer from "./components/Footer/Footer";
+import Favicon16 from "./images/favicon-16x16.png";
+import Favicon32 from "./images/favicon-32x32.png";
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>Reese's Portfolio</title>
+        <meta name="description" content="Showcasing projects I've built." />
+        <link rel="icon" type="image/png" sizes="32x32" href={Favicon16} />
+        <link rel="icon" type="image/png" sizes="16x16" href={Favicon32} />
+      </Helmet>
       <Intro />
       <div className="main-content-container">
         <AboutMe />

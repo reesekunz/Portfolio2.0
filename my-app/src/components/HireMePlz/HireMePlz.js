@@ -68,6 +68,23 @@ function HireMePlz() {
               <IoLogoFacebook size={30} color="#3B5998" />
             </a>
           </div>
+          <div className="contact-socials-mobile">
+            <a href="https://github.com/reesekunz" className="icon">
+              <IoLogoOctocat size={25} color="black" />
+            </a>
+            <a href="https://www.linkedin.com/in/reesekunz/" className="icon">
+              <IoLogoLinkedin size={25} color="#4875B4" />
+            </a>
+            <a href="https://www.twitter.com/ReeseKunz" className="icon">
+              <IoLogoTwitter size={25} color="#33CCFF" />
+            </a>
+            <a href="https://www.instagram.com/reesekunz" className="icon">
+              <IoLogoInstagram size={25} color="#4E433C" />
+            </a>
+            <a href="https://www.facebook.com/reesespieces21" className="icon">
+              <IoLogoFacebook size={25} color="#3B5998" />
+            </a>
+          </div>
         </div>
       </div>
     </div>

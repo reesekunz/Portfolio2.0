@@ -10,7 +10,7 @@ function Portfolio() {
   return (
     <div className="portfolio-container">
       <div className="section-header">
-        <span>Portfolio</span>
+        <span className="portfolio-header">Portfolio</span>
       </div>
       <div className="project-container">
         {/* {projectInfo.map(project => (
@@ -61,7 +61,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="row">
-          <div className="project">
+          <div className="project" id="row2">
             <img
               src={CoordinatedStories}
               alt="Coordinated Stories project screenshot"
@@ -71,9 +71,8 @@ function Portfolio() {
             <p className="tech-stack">Node, Express</p>
             <p className="project-description">
               Our team's goal was to create a central location for gathering
-              success stories for the Bountiful Children's Foundation to spread
-              awareness about the positive impact donations have on the lives of
-              children.
+              success stories for the Bountiful Children's Foundation, showing
+              the positive impact donations have on the lives of children.
             </p>
 
             <div className="linkz">
@@ -83,15 +82,14 @@ function Portfolio() {
               <a href="https://bountifulchildren.org/">Company</a>
             </div>
           </div>
-          <div className="project">
+          <div className="project" id="row2">
             <img src={WellDone} alt="WellDone project screenshot" />
             <h3 className="project-name">WellDone</h3>
             <p className="tech-stack">JavaScript, React, Node, Express</p>
             <p className="project-description">
-              WellDone is a non-profit that works to provide clean and
-              sustainable water to areas in need. Built a BE to store well
-              sensor data and a FE to visualize which pumps are functioning or
-              need maintenance, among other features.
+              WellDone is a non-profit that provides clean and sustainable water
+              to areas in need. Built a BE to store well sensor data and a FE to
+              visualize which pumps are functioning or need maintenance.
             </p>
 
             <div className="linkz">

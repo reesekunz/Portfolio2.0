@@ -2,18 +2,18 @@
   padding-bottom: 3%;
   margin: 24px 48px;
   border-top: 1px solid lightgray;
+  @media (max-width: 500px) {
+    border-top: 3px solid black;
+  }
   .section-header {
-    // margin-top: 2%;
     margin-bottom: 2%;
     font-family: Bookman;
     font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    @media (max-width: 500px) {
-      font-size: 1.75rem;
-    }
-    span {
+
+    .looking-to-hire {
       margin-top: 3%;
       background-image: linear-gradient(
         transparent 2rem,
@@ -21,23 +21,41 @@
         #80d0c7 100%
       );
       @media (max-width: 800px) {
-        margin-top: 7%;
-        margin-bottom: 2%;
-        background-image: linear-gradient(
-          transparent 2rem,
-          #0093e9 0%,
-          #80d0c7 100%
-        );
+        display: none;
       }
       @media (max-width: 500px) {
         margin-top: 7%;
-        // margin-bottom: 2%;
         background-image: linear-gradient(
           transparent 1.5rem,
           #0093e9 0%,
           #80d0c7 100%
         );
       }
+    }
+    .contact-me {
+      display: none;
+      @media (max-width: 800px) {
+        display: flex;
+
+        margin-top: 7%;
+        margin-bottom: 1%;
+        background-image: linear-gradient(
+          transparent 2rem,
+          #0093e9 0%,
+          #80d0c7 100%
+        );
+      }
+      // @media (max-width: 500px) {
+      //   display: flex;
+      //   font-size: 1.75rem;
+      //   margin-top: 7%;
+      //   margin-bottom: 1%;
+      //   background-image: linear-gradient(
+      //     transparent 1.75rem,
+      //     #0093e9 0%,
+      //     #80d0c7 100%
+      //   );
+      // }
     }
   }
   .hire-me-content {
@@ -58,7 +76,7 @@
       font-family: "Oswald", sans-serif;
       @media (max-width: 800px) {
         margin: 30px 0 0 0;
-        width: 80%;
+        width: 100%;
         font-size: 1.15rem;
         font-family: "Oswald", sans-serif;
       }
@@ -113,8 +131,8 @@
     }
   }
   .popup-container {
-    margin-top: 3%;
-    margin-bottom: 3%;
+    // margin-top: 3%;
+    margin-bottom: 5%;
     display: none;
     flex-direction: row;
     align-content: center;
@@ -122,14 +140,12 @@
     text-align: left;
 
     .contact-popup {
-      border: 1px solid black;
       background-color: white;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
       color: black;
-      padding-left: 2%;
-      padding-right: 1.5%;
       display: flex;
       flex-direction: column;
+      justify-content: flex-start;
       height: 180px;
       width: 420px;
       @media (max-width: 800px) {
@@ -138,35 +154,31 @@
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
           0 6px 6px rgba(0, 0, 0, 0.23);
         color: black;
-        // padding-left: 2%;
-        // padding-right: 1.5%;
         display: flex;
-        // flex-direction: column;
         height: 180px;
         width: 420px;
       }
 
-      .contact-popup-row1 {
+      .close-btn {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        h2 {
-          display: flex;
-          justify-content: center;
-          margin-left: 30%;
-        }
-        .x {
-          display: flex;
-          justify-content: flex-end;
-        }
+        justify-content: flex-end;
+        margin-top: 0;
+        padding-top: 3%;
+        padding-right: 3%;
+        margin-left: 50px;
       }
+
       .email {
         font-size: 1.2rem;
-        margin-top: 4%;
-        margin-bottom: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 6%;
+        text-decoration: underline;
         @media (max-width: 800px) {
-          // font-size: 0.9rem;
+          margin-top: 5%;
+          margin-bottom: 10%;
         }
       }
       .contact-socials {

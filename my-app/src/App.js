@@ -16,6 +16,7 @@ import { createBrowserHistory } from "history";
 
 const trackingId = "UA-156067052-1"; // Google Analytics tracking ID
 ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 // ReactGA.set({
 //   userId: new Date(),
 

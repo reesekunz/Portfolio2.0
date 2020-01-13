@@ -12,7 +12,7 @@ import Footer from "./components/Footer/Footer";
 import Favicon16 from "./images/favicon-16x16.png";
 import Favicon32 from "./images/favicon-32x32.png";
 import ReactGA from "react-ga";
-import { createBrowserHistory } from "history";
+// import { createBrowserHistory } from "history";
 
 const trackingId = "UA-156067052-1"; // Google Analytics tracking ID
 ReactGA.initialize(trackingId);
@@ -48,6 +48,7 @@ function App() {
         <HireMePlz />
       </div>
       <Footer />
+      <p className="built-by">Website built by myself with React 🙌</p>
     </div>
   );
 }

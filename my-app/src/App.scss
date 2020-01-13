@@ -10,5 +10,16 @@
     width: auto;
     // box-shadow: 3px 2px black;
   }
+  .built-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    color: white;
+    font-family: Boookman;
+    font-size: 1.15rem;
+    @media (max-width: 500px) {
+      font-size: 1rem;
+    }
+  }
 }
-

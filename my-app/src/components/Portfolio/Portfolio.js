@@ -21,7 +21,7 @@ function Portfolio() {
           </div>
         ))} */}
         {/* Advice Giver  */}
-        <div className="row">
+        <div className="row" id="portfolio">
           <div className="project">
             <img src={AdviceGiver} alt="Advice Giver project screenshot" />
             <h3 className="project-name">Advice Giver</h3>

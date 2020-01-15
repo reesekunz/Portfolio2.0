@@ -2,39 +2,36 @@
   padding-bottom: 3%;
   margin: 24px 48px;
   .section-header {
-    margin-top: 2%;
+    margin-top: 0;
     margin-bottom: 2%;
     font-family: Bookman;
     font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    // @media (max-width: 500px) {
-    //   font-size: 1.75rem;
-    //   margin-top: 15%;
-    // }
-
     span {
-      margin-top: 3%;
-      // margin-bottom: 2%;
+      margin-top: 1%;
       background-image: linear-gradient(
         transparent 2rem,
         #0093e9 0%,
         #80d0c7 100%
       );
-      // @media (max-width: 500px) {
-      //   margin-top: 7%;
-      //   background-image: linear-gradient(
-      //     transparent 1.75rem,
-      //     #0093e9 0%,
-      //     #80d0c7 100%
-      //   );
-      // }
+
       @media (max-width: 800px) {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        background-image: linear-gradient(
+          transparent 2rem,
+          #0093e9 0%,
+          #80d0c7 100%
+        );
+      }
+      @media (max-width: 500px) {
+        font-size: 1.7rem;
         margin-top: 7%;
         margin-bottom: 3%;
         background-image: linear-gradient(
-          transparent 2rem,
+          transparent 1.7rem,
           #0093e9 0%,
           #80d0c7 100%
         );
@@ -65,7 +62,7 @@
       }
       @media (max-width: 500px) {
         width: 100%;
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
       li {
         margin-top: 4.5%;

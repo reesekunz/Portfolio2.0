@@ -26,7 +26,7 @@ function HireMePlz() {
         </span>
         <span className="contact-me">Contact Me</span>
       </div>
-      <div className="hire-me-content">
+      <div className="hire-me-content" id="contact">
         <div className="hire-me-text">
           <div className="content">
             I'm seeking a full-time position and would love to chat! I'm open to

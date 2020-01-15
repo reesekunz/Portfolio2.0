@@ -4,7 +4,7 @@ import ReeseIMG from "../../images/ReeseIMG.png";
 
 function AboutMe() {
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" id="about">
       <div className="section-header">
         <span>About Me</span>
       </div>

@@ -9,6 +9,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 // import Blog from "./components/Blog/Blog";
 import HireMePlz from "./components/HireMePlz/HireMePlz";
 import Footer from "./components/Footer/Footer";
+import NavBar from "./components/NavBar/NavBar";
 import Favicon16 from "./images/favicon-16x16.png";
 import Favicon32 from "./images/favicon-32x32.png";
 import ReactGA from "react-ga";
@@ -42,13 +43,14 @@ function App() {
       </Helmet>
       <Intro />
       <div className="main-content-container">
+        <NavBar />
         <AboutMe />
         <Portfolio />
         {/* <Blog /> */}
         <HireMePlz />
       </div>
       <Footer />
-      <p className="built-by">Website built by myself with React 🙌</p>
+      <p className="built-by">© 2020, Built with React </p>
     </div>
   );
 }

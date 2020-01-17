@@ -1,9 +1,27 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./NavBar.scss";
-// function scrollToTop() {
-//   scroll.scrollToTop();
-// }
+
+// When the event DOMContentLoaded occurs, it is safe to access the DOM
+document.addEventListener("DOMContentLoaded", function() {
+  // When the user scrolls the page, execute stickyNav function
+  window.addEventListener("scroll", stickyNav);
+
+  // Get the nav bar items
+  var navbar = document.querySelector(".nav-items");
+
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function stickyNav() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+});
 
 function NavBar() {
   return (

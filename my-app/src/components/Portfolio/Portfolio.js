@@ -8,7 +8,7 @@ import WellDone from "../../images/WellDoneScreenshot.png";
 // import { IoIosInformationCircleOutline } from "react-icons/io";
 function Portfolio() {
   return (
-    <div className="portfolio-container">
+    <div className="portfolio-container" id="portfolio">
       <div className="section-header">
         <span className="portfolio-header">Portfolio</span>
       </div>
@@ -21,7 +21,7 @@ function Portfolio() {
           </div>
         ))} */}
         {/* Advice Giver  */}
-        <div className="row" id="portfolio">
+        <div className="row">
           <div className="project">
             <img src={AdviceGiver} alt="Advice Giver project screenshot" />
             <h3 className="project-name">Advice Giver</h3>

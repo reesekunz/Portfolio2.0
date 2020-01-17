@@ -41,7 +41,7 @@ function NavBar() {
                 offset={-70}
                 duration={500}
               >
-                About Me
+                About
               </Link>
             </div>
             <div className="nav-item">

@@ -7,6 +7,9 @@ import {
   IoLogoFacebook,
   IoLogoTwitter
 } from "react-icons/io";
+// import FormikContactForm from "./ContactForm";
+import EmailForm from "./EmailForm";
+
 function openContactForm() {
   var popup = document.getElementById("popup-container");
   popup.style.display = "flex";
@@ -50,7 +53,7 @@ function HireMePlz() {
           <p onClick={closeContactForm} className="close-btn">
             ❌
           </p>
-          <p className="email">ReeseKunz21@gmail.com</p>
+          {/* <p className="email">ReeseKunz21@gmail.com</p>
           <div className="contact-socials">
             <a href="https://github.com/reesekunz" className="icon">
               <IoLogoOctocat size={30} color="black" />
@@ -84,6 +87,10 @@ function HireMePlz() {
             <a href="https://www.facebook.com/reesespieces21" className="icon">
               <IoLogoFacebook size={25} color="#3B5998" />
             </a>
+          </div> */}
+          <div className="contact-me-form">
+            {/* <FormikContactForm /> */}
+            <EmailForm />
           </div>
         </div>
       </div>

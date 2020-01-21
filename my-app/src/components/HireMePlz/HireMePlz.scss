@@ -139,7 +139,7 @@
   }
   .popup-container {
     margin-bottom: 5%;
-    display: none;
+    // display: none;
     flex-direction: row;
     align-content: center;
     justify-content: center;
@@ -152,8 +152,8 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      height: 180px;
-      width: 420px;
+      height: 300px;
+      width: 500px;
       @media (max-width: 800px) {
         border: 1px solid black;
         background-color: white;

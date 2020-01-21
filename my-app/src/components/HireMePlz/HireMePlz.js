@@ -13,17 +13,29 @@ import EmailForm from "./EmailForm";
 function openContactForm() {
   var popup = document.getElementById("popup-container");
   popup.style.display = "flex";
+
+  var sectionHeader = document.getElementById("contact-header");
+  sectionHeader.style.display = "none";
+
+  var content = document.querySelector(".hire-me-content");
+  content.style.display = "none";
 }
 
 function closeContactForm() {
   var popup = document.getElementById("popup-container");
   popup.style.display = "none";
+
+  var sectionHeader = document.getElementById("contact-header");
+  sectionHeader.style.display = "flex";
+
+  var content = document.querySelector(".hire-me-content");
+  content.style.display = "flex";
 }
 
 function HireMePlz() {
   return (
     <div className="hire-me-container" id="contact">
-      <div className="section-header">
+      <div className="section-header" id="contact-header">
         <span className="looking-to-hire">
           Looking to hire a web developer?
         </span>
@@ -53,44 +65,42 @@ function HireMePlz() {
           <p onClick={closeContactForm} className="close-btn">
             ❌
           </p>
-          {/* <p className="email">ReeseKunz21@gmail.com</p>
+          <div className="contact-me-form">
+            <EmailForm />
+          </div>
           <div className="contact-socials">
             <a href="https://github.com/reesekunz" className="icon">
-              <IoLogoOctocat size={30} color="black" />
+              <IoLogoOctocat size={35} color="black" />
             </a>
             <a href="https://www.linkedin.com/in/reesekunz/" className="icon">
-              <IoLogoLinkedin size={30} color="#4875B4" />
+              <IoLogoLinkedin size={35} color="black" />
             </a>
             <a href="https://www.twitter.com/ReeseKunz" className="icon">
-              <IoLogoTwitter size={30} color="#33CCFF" />
+              <IoLogoTwitter size={35} color="black" />
             </a>
             <a href="https://www.instagram.com/reesekunz" className="icon">
-              <IoLogoInstagram size={30} color="#4E433C" />
+              <IoLogoInstagram size={35} color="black" />
             </a>
             <a href="https://www.facebook.com/reesespieces21" className="icon">
-              <IoLogoFacebook size={30} color="#3B5998" />
+              <IoLogoFacebook size={35} color="black" />
             </a>
           </div>
           <div className="contact-socials-mobile">
             <a href="https://github.com/reesekunz" className="icon">
-              <IoLogoOctocat size={25} color="black" />
+              <IoLogoOctocat size={20} color="black" />
             </a>
             <a href="https://www.linkedin.com/in/reesekunz/" className="icon">
-              <IoLogoLinkedin size={25} color="#4875B4" />
+              <IoLogoLinkedin size={20} color="black" />
             </a>
             <a href="https://www.twitter.com/ReeseKunz" className="icon">
-              <IoLogoTwitter size={25} color="#33CCFF" />
+              <IoLogoTwitter size={20} color="black" />
             </a>
             <a href="https://www.instagram.com/reesekunz" className="icon">
-              <IoLogoInstagram size={25} color="#4E433C" />
+              <IoLogoInstagram size={20} color="black" />
             </a>
             <a href="https://www.facebook.com/reesespieces21" className="icon">
-              <IoLogoFacebook size={25} color="#3B5998" />
+              <IoLogoFacebook size={20} color="black" />
             </a>
-          </div> */}
-          <div className="contact-me-form">
-            {/* <FormikContactForm /> */}
-            <EmailForm />
           </div>
         </div>
       </div>

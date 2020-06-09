@@ -34,6 +34,7 @@ function NavBar() {
           <div className="nav-items">
             <div className="nav-item">
               <Link
+                className="link"
                 activeClass="active"
                 to="about"
                 spy={true}
@@ -46,6 +47,7 @@ function NavBar() {
             </div>
             <div className="nav-item">
               <Link
+                className="link"
                 activeClass="active"
                 to="portfolio"
                 spy={true}
@@ -70,6 +72,7 @@ function NavBar() {
             </li> */}
             <div className="nav-item">
               <Link
+                className="link"
                 activeClass="active"
                 to="contact"
                 spy={true}

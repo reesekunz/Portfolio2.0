@@ -13,14 +13,6 @@ function Portfolio() {
         <span className="portfolio-header">Portfolio</span>
       </div>
       <div className="project-container">
-        {/* {projectInfo.map(project => (
-          <div>
-            <div>{project.name} </div>
-            <div>{project.techStack} </div>
-            <div>{project.description} </div>
-          </div>
-        ))} */}
-        {/* Advice Giver  */}
         <div className="row">
           <div className="project">
             <img src={AdviceGiver} alt="Advice Giver project screenshot" />

@@ -1,11 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./App.scss";
-// import { Route } from "react-router-dom";
 import Intro from "./components/Intro/Intro";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Portfolio from "./components/Portfolio/Portfolio";
-// import Blog from "./components/Blog/Blog";
 import HireMePlz from "./components/HireMePlz/HireMePlz";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";

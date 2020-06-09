@@ -9,6 +9,7 @@ import {
 } from "react-icons/io";
 // import FormikContactForm from "./ContactForm";
 import EmailForm from "./EmailForm";
+import GetInTouchBtn from "./GetInTouchBtn";
 
 function openContactForm() {
   var popup = document.getElementById("popup-container");
@@ -55,7 +56,8 @@ function HireMePlz() {
         <div className="hire-me-wrapper">
           <div className="hire-me-btn-container">
             <div className="get-in-touch-btn" onClick={openContactForm}>
-              Get in touch
+              {/* <a href="#">Get in touch</a> */}
+              <GetInTouchBtn />
             </div>
           </div>
         </div>

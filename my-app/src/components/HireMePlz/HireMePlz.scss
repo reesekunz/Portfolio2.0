@@ -113,18 +113,9 @@
           align-items: center;
         }
         .get-in-touch-btn {
-          background-color: black;
-          color: white;
-          border: 1px solid black;
           margin-bottom: 70px;
-          padding: 24px;
-          width: 140px;
-          font-size: 1.3rem;
-          width: 50%;
+
           &:hover {
-            background-color: lightblue;
-            color: black;
-            border: 1px solid black;
             cursor: pointer;
           }
           @media (max-width: 800px) {
@@ -137,6 +128,7 @@
       }
     }
   }
+
   .popup-container {
     width: 100%;
     margin-top: 5%;

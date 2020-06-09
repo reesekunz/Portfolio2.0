@@ -56,12 +56,20 @@
         }
       }
     }
+    .active:hover {
+      @media (max-width: 500px) {
+        // color: white;
+      }
+    }
     .nav-item:hover {
       cursor: pointer;
       // background: url(https://www.onlygfx.com/wp-content/uploads/2017/04/blue-watercolor-brush-stroke-9.png);
       // background-repeat: no-repeat;
       // background-size: 100% 100%;
       // color: white;
+      @media (max-width: 500px) {
+        // color: white;
+      }
     }
   }
   // sticky class is added with JS when scroll position is reached

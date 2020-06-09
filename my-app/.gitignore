@@ -28,3 +28,7 @@ yarn-error.log*
 /EmailForm.js
 EmailForm.js
 
+#Index html 
+index.html
+/index.html
+.index.html

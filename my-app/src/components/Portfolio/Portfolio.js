@@ -129,13 +129,12 @@ function Portfolio() {
             </div>
 
             <p className="project-description">
-              Created a central location for gathering success stories from the{" "}
+              Created a central location for gathering success stories for the{" "}
               {""}
-              <a href="https://bountifulchildren.org/">
+              <a href="https://bountifulchildren.org/" target="_blank">
                 Bountiful Children's Foundation
               </a>
-              , showing the positive impact donations have had on the lives of
-              children.
+              .
             </p>
             <p className="tech-stack">Tech Stack: Node, Express</p>
           </div>
@@ -176,7 +175,10 @@ function Portfolio() {
             <p className="project-description">
               Built a backend to persist well sensor data and a frontend to
               visualize which pumps need maintenance for{" "}
-              <a href="https://welldone.org/">WellDone</a>.
+              <a href="https://welldone.org/" target="_blank">
+                WellDone
+              </a>
+              .
             </p>
             <p className="tech-stack">Tech Stack: React, Node, Express</p>
           </div>

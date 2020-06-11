@@ -4,9 +4,6 @@
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   font-family: "Oswald", sans-serif;
 
-  @media (max-width: 500px) {
-    // display: none;
-  }
   .nav-content {
     max-width: 100%;
     padding: 0rem 3rem;
@@ -15,9 +12,17 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    @media (max-width: 500px) {
+      padding: 0;
+    }
   }
   .nav-items {
     display: flex;
+    @media (max-width: 500px) {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
 
     .nav-item {
       width: 100px;
@@ -76,12 +81,16 @@
   .sticky {
     position: fixed;
     top: 0;
-    width: 90%;
+    width: 80%;
     background-color: #f0f8ff;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
     height: 70px;
+
+    @media (max-width: 500px) {
+      width: 90%;
+    }
   }
 }

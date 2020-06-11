@@ -1,6 +1,11 @@
 .about-me-container {
   padding-bottom: 3%;
   margin: 24px 48px;
+  @media (max-width: 500px) {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   .section-header {
     margin-top: 0;
     margin-bottom: 2%;

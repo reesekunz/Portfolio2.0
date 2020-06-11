@@ -84,11 +84,13 @@
           font-size: 1rem;
         }
         @media (max-width: 500px) {
-          width: 100%;
+          width: 95% !important;
           margin-top: 5%;
           margin-bottom: 10%;
           height: 425px;
           font-size: 0.9rem;
+          margin-left: 2.5%;
+          margin-right: 2.5%;
         }
 
         img {

@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import HireMePlz from "./components/HireMePlz/HireMePlz";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
+import Blog from "./components/Blog/Blog";
 import Favicon16 from "./images/favicon-16x16.png";
 import Favicon32 from "./images/favicon-32x32.png";
 import ReactGA from "react-ga";
@@ -29,7 +30,7 @@ function App() {
         <NavBar />
         <AboutMe />
         <Portfolio />
-        {/* <Blog /> */}
+        <Blog />
         <HireMePlz />
       </div>
       <Footer />

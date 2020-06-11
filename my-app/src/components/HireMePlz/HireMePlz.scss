@@ -3,7 +3,8 @@
   margin: 24px 48px;
   border-top: 1px solid lightgray;
   @media (max-width: 500px) {
-    border-top: 3px solid black;
+    // border-top: 3px solid black;
+    margin: 0;
   }
   .section-header {
     margin-bottom: 2%;
@@ -67,6 +68,11 @@
       display: flex;
       flex-direction: column;
     }
+    @media (max-width: 500px) {
+      margin: 24px 48px;
+      // width: 100%;
+      font-size: 1rem;
+    }
     .hire-me-text {
       margin: 30px 0 0 0;
       width: 50%;
@@ -103,9 +109,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @media (max-width: 1200px) {
+          // border: 2px solid red;
+          margin-left: 10%;
+        }
         @media (max-width: 800px) {
-          margin-top: 5%;
-          margin-bottom: 5%;
+          margin-top: 15%;
+          margin-bottom: 0%;
+          margin-left: 0%;
           height: 100px;
           width: 100%;
           display: flex;
@@ -115,14 +126,11 @@
         .get-in-touch-btn {
           margin-bottom: 70px;
 
+          @media (max-width: 800px) {
+            width: 75%;
+          }
           &:hover {
             cursor: pointer;
-          }
-          @media (max-width: 800px) {
-            margin-bottom: 0px;
-            padding: 20px;
-            font-size: 1.1rem;
-            width: 125px;
           }
         }
       }

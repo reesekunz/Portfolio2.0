@@ -58,7 +58,7 @@ function NavBar() {
                 Portfolio
               </Link>
             </div>
-            {/* <li className="nav-item">
+            <div className="nav-item">
               <Link
                 activeClass="active"
                 to="blog"
@@ -69,7 +69,7 @@ function NavBar() {
               >
                 Blog
               </Link>
-            </li> */}
+            </div>
             <div className="nav-item">
               <Link
                 className="link"

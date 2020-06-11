@@ -2,9 +2,12 @@
   padding-bottom: 5%;
 
   border-top: 1px solid lightgray;
-  // margin: 24px 48px;
+  margin: 24px 48px;
   padding-left: 10%;
   padding-right: 10%;
+  @media (max-width: 500px) {
+    margin: 0;
+  }
 
   .section-header {
     margin-top: 24px;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Blog.scss";
+import { IoIosArrowForward } from "react-icons/io";
 function Blog() {
   return (
     <div className="blog-container" id="blog">
@@ -65,62 +66,17 @@ function Blog() {
           <h5 className="post-date">June 03, 2020</h5>
         </div>
       </div>
-
-      {/* <table className="blog-posts">
-        <div className="post">
-          <tr className="table-row">
-            <td className="post-title">
-              <div className="title-wrapper">
-                <a
-                  className="title"
-                  href="https://foobarbananablog.com/create-and-deploy-blog/"
-                  alt="blog-link"
-                  target="_blank"
-                >
-                  Create and Deploy a Blog Using Gatsby and Vercel
-                </a>
-              </div>
-            </td>
-            <div className="date-wrapper">
-              <td className="post-date">June 03, 2020</td>
-            </div>
-          </tr>
-        </div>
-        <div className="post">
-          <tr className="table-row">
-            <td className="post-title">
-              <a
-                className="title"
-                href="https://foobarbananablog.com/create-and-deploy-blog/"
-                alt="blog-link"
-                target="_blank"
-              >
-                Coming Soon
-              </a>
-            </td>
-            <div className="date-wrapper">
-              <td className="post-date">TBD</td>
-            </div>
-          </tr>
-        </div>
-        <div className="post">
-          <tr className="table-row">
-            <td className="post-title">
-              <a
-                className="title"
-                href="https://foobarbananablog.com/create-and-deploy-blog/"
-                alt="blog-link"
-                target="_blank"
-              >
-                Coming Soon
-              </a>
-            </td>
-            <div className="date-wrapper">
-              <td className="post-date">TBD</td>
-            </div>
-          </tr>
-        </div>
-      </table> */}
+      <div className="btn-wrapper">
+        <a
+          className="button-link"
+          href="https://foobarbananablog.com/"
+          alt="button-link"
+          target="_blank"
+        >
+          <span className="view-all-span"></span>View All
+          <IoIosArrowForward size={12.5} />
+        </a>{" "}
+      </div>
     </div>
   );
 }

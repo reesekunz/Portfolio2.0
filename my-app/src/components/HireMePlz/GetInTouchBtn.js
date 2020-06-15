@@ -3,9 +3,7 @@ import "./GetInTouchBtn.scss";
 function GetInTouchBtn() {
   return (
     <div className="get-in-touch-container">
-      <a className="anchor" href="#">
-        Get in touch
-      </a>
+      <div className="anchor">Get in touch</div>
     </div>
   );
 }

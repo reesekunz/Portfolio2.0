@@ -90,7 +90,7 @@
           width: 95% !important;
           margin-top: 5%;
           margin-bottom: 10%;
-          height: 430px !important;
+          height: 420px !important;
           font-size: 0.9rem;
           margin-left: 2.5%;
           margin-right: 2.5%;
@@ -127,15 +127,15 @@
         }
         .project-name {
           margin: 0;
-          font-size: 1.5rem;
+          font-size: 1.4rem;
           margin-top: 4%;
           text-decoration: underline;
 
           @media (max-width: 500px) {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             display: flex;
             justify-content: center;
-            width: 60%;
+            width: 80%;
           }
           .project-link {
             color: black;

@@ -29,7 +29,7 @@ function Portfolio() {
                 target="_blank"
                 href="https://github.com/advice-giver/Web-UI/pull/1/commits"
               >
-                <IoLogoGithub size={35} className="icon" />
+                <IoLogoGithub size={32} className="icon" />
               </a>
               <h3 className="project-name">
                 <a
@@ -43,7 +43,7 @@ function Portfolio() {
               </h3>
               <div className="project-btn-link"></div>
               {/* <a className="project-btn-link" target="_blank" href="#">
-                <IoIosInformationCircleOutline size={35} />
+                <IoIosInformationCircleOutline size={32} />
               </a> */}
             </div>
             <p className="project-description">
@@ -71,7 +71,7 @@ function Portfolio() {
                 className="project-btn-link"
                 target="_blank"
               >
-                <IoLogoGithub size={35} className="icon" />
+                <IoLogoGithub size={32} className="icon" />
               </a>
               <h3 className="project-name">
                 <a
@@ -86,7 +86,7 @@ function Portfolio() {
               <div className="project-btn-link"></div>
 
               {/* <a className="project-btn-link" target="_blank" href="#">
-                <IoIosInformationCircleOutline size={35} />
+                <IoIosInformationCircleOutline size={32} />
               </a> */}
             </div>
 
@@ -109,7 +109,7 @@ function Portfolio() {
                 className="project-btn-link"
                 target="_blank"
               >
-                <IoLogoGithub size={35} className="icon" />
+                <IoLogoGithub size={32} className="icon" />
               </a>
               <h3 className="project-name">
                 {/* <a
@@ -124,7 +124,7 @@ function Portfolio() {
               <div className="project-btn-link"></div>
 
               {/* <a className="project-btn-link" target="_blank" href="#">
-                <IoIosInformationCircleOutline size={35} />
+                <IoIosInformationCircleOutline size={32} />
               </a> */}
             </div>
 
@@ -154,7 +154,7 @@ function Portfolio() {
                 target="_blank"
               >
                 {" "}
-                <IoLogoGithub size={35} className="icon" />
+                <IoLogoGithub size={32} className="icon" />
               </a>
               <h3 className="project-name">
                 <a
@@ -168,7 +168,7 @@ function Portfolio() {
               </h3>{" "}
               <div className="project-btn-link"></div>
               {/* <a className="project-btn-link" target="_blank" href="#">
-                <IoIosInformationCircleOutline size={35} />
+                <IoIosInformationCircleOutline size={32} />
               </a> */}
             </div>
 

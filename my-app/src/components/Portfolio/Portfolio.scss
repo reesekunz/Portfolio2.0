@@ -130,9 +130,9 @@
           font-size: 1.4rem;
           margin-top: 4%;
           text-decoration: underline;
-
+          // white-space: nowrap;
           @media (max-width: 500px) {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             display: flex;
             justify-content: center;
             width: 80%;

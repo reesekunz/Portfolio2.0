@@ -24,7 +24,11 @@
     font-size: 0.8rem;
     @media (max-width: 500px) {
       margin-bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      
     }
+
     .built-with {
       display: flex;
       justify-content: center;

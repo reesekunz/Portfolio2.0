@@ -38,14 +38,14 @@ function App() {
       <div className="built-by-container">
         <div className="built-with-wrapper">
           <p className="built-with">
-            Built with{" "}
+            Built with:
             <a href="https://reactjs.org/" target="_blank">
               <img className="react-icon" src={ReactIcon} alt="react-icon" />{" "}
             </a>
           </p>
         </div>
         <div className="design-wrapper">
-          Design: &nbsp;
+          Design by: &nbsp;
           <a
             className="design-credit"
             href="https://aj.lkn.io/"

@@ -1,13 +1,5 @@
 import React from "react";
 import "./HireMePlz.scss";
-import {
-  IoLogoOctocat,
-  IoLogoLinkedin,
-  IoLogoInstagram,
-  IoLogoFacebook,
-  IoLogoTwitter
-} from "react-icons/io";
-// import FormikContactForm from "./ContactForm";
 import EmailForm from "./EmailForm";
 import GetInTouchBtn from "./GetInTouchBtn";
 
@@ -56,7 +48,6 @@ function HireMePlz() {
         <div className="hire-me-wrapper">
           <div className="hire-me-btn-container">
             <div className="get-in-touch-btn" onClick={openContactForm}>
-              {/* <a href="#">Get in touch</a> */}
               <GetInTouchBtn />
             </div>
           </div>
@@ -72,6 +63,10 @@ function HireMePlz() {
           </div>
         </div>
       </div>
+      <p className="thank-you">
+        Thanks for your inquiry! I will try to get back to you as soon as
+        possible ❤️
+      </p>
     </div>
   );
 }

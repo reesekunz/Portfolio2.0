@@ -1,5 +1,8 @@
 .email-form-container {
   font-family: "Oswald", sans-serif;
+  width: 90%;
+  border: 1px solid black;
+
   .contact-me-header {
     font-size: 1.75rem;
     display: flex;
@@ -10,36 +13,75 @@
       margin-top: 5%;
     }
   }
+  .row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3%;
 
-  textarea {
-    margin-top: 2.5%;
-    border: 1px solid brown;
-    width: 500px;
-    height: 100px;
-    @media (max-width: 1200px) {
-      width: 400px;
+    .input {
+      width: 100%;
+      height: 35px;
     }
-    @media (max-width: 1000px) {
-      width: 350px;
+    #name {
+      width: 47.5%;
     }
-    @media (max-width: 800px) {
-      width: 300px;
+    #email {
+      width: 47.5%;
+      margin-left: 5%;
     }
-    @media (max-width: 700px) {
-      width: 250px;
-    }
-    @media (max-width: 500px) {
-      width: 150px;
-      height: 125px;
+
+    textarea {
+      margin-top: 2.5%;
+      width: 100%;
+      height: 100px;
     }
   }
-  .button {
+  .btn-wrapper {
+    // border: 10px solid teal;
+    height: 130px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
-    .btn-submit {
-      width: 70px;
-      height: auto;
-      margin-top: 2.5%;
+    padding-top: 2%;
+    // background-color: black;
+    // .btn-submit {
+    //   height: 100%;
+    //   width: 250px;
+    //   color: pink;
+    //   border: 1px solid black;
+    //   font-size: 18px;
+    //   border-radius: 20%;
+    // }
+    .submit-btn {
+      text-decoration: none;
+      color: white;
+      font-family: sans-serif;
+      font-size: 40px;
+      border: 3px solid white;
+      padding: 40px 80px;
+      transition: all 0.3s;
+      position: relative;
+      overflow: hidden;
+      background-color: black;
+
+      &:hover {
+        // background-color: #f44336;
+        background-color: #20caff;
+      }
+    }
+    .submit-btn:before {
+      content: "";
+      background-color: white;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      transform: translateX(-100%) rotate(45deg);
+      transition: all 0.3s;
+    }
+    .submit-btn:hover:before {
+      transform: translateX(100%) rotate(45deg);
     }
   }
 }

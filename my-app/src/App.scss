@@ -13,16 +13,33 @@
       margin-right: 5%;
     }
   }
-  .built-by {
+  .built-by-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 80px;
+    flex-direction: column;
+    margin-bottom: 35px;
     color: white;
     font-family: "Oswald", sans-serif;
     font-size: 0.8rem;
     @media (max-width: 500px) {
       margin-bottom: 30px;
+    }
+    .built-with {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .react-icon {
+        height: 35px;
+        width: auto;
+      }
+    }
+    .design-wrapper {
+      display: flex;
+      .design-credit {
+        // text-decoration: none;
+        color: white;
+      }
     }
   }
 }

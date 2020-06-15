@@ -51,14 +51,27 @@
       color: #f1f1f1;
     }
   }
+  #facebook::before {
+    background: #1877f2;
+  }
+  #instagram::before {
+    background: #c32aa3;
+  }
+  #twitter::before {
+    background: #1da1f2;
+  }
+  #linkedin::before {
+    background: #007bb5;
+  }
+  #github::before {
+    background: #999;
+  }
 
   .footer-icon::before {
     content: "";
     position: absolute;
     width: 120%;
     height: 120%;
-    // background: #10ac84;
-    background: #262626;
     left: -110%;
     top: 90%;
     transform: rotate(45deg);

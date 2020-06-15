@@ -65,44 +65,10 @@ function HireMePlz() {
       <div className="popup-container" id="popup-container">
         <div className="contact-popup">
           <p onClick={closeContactForm} className="close-btn">
-            ❌
+            <div className="x">❌</div>
           </p>
           <div className="contact-me-form">
             <EmailForm />
-          </div>
-          <div className="contact-socials">
-            <a href="https://github.com/reesekunz" className="icon">
-              <IoLogoOctocat size={35} color="black" />
-            </a>
-            <a href="https://www.linkedin.com/in/reesekunz/" className="icon">
-              <IoLogoLinkedin size={35} color="black" />
-            </a>
-            <a href="https://www.twitter.com/ReeseKunz" className="icon">
-              <IoLogoTwitter size={35} color="black" />
-            </a>
-            <a href="https://www.instagram.com/reesekunz" className="icon">
-              <IoLogoInstagram size={35} color="black" />
-            </a>
-            <a href="https://www.facebook.com/reesespieces21" className="icon">
-              <IoLogoFacebook size={35} color="black" />
-            </a>
-          </div>
-          <div className="contact-socials-mobile">
-            <a href="https://github.com/reesekunz" className="icon">
-              <IoLogoOctocat size={20} color="black" />
-            </a>
-            <a href="https://www.linkedin.com/in/reesekunz/" className="icon">
-              <IoLogoLinkedin size={20} color="black" />
-            </a>
-            <a href="https://www.twitter.com/ReeseKunz" className="icon">
-              <IoLogoTwitter size={20} color="black" />
-            </a>
-            <a href="https://www.instagram.com/reesekunz" className="icon">
-              <IoLogoInstagram size={20} color="black" />
-            </a>
-            <a href="https://www.facebook.com/reesespieces21" className="icon">
-              <IoLogoFacebook size={20} color="black" />
-            </a>
           </div>
         </div>
       </div>

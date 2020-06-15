@@ -11,6 +11,7 @@ import Blog from "./components/Blog/Blog";
 import Favicon16 from "./images/favicon-16x16.png";
 import Favicon32 from "./images/favicon-32x32.png";
 import ReactGA from "react-ga";
+import ReactIcon from "./images/ReactIcon.png";
 
 const trackingId = "UA-156067052-1"; // Google Analytics tracking ID
 ReactGA.initialize(trackingId);
@@ -34,7 +35,26 @@ function App() {
         <HireMePlz />
       </div>
       <Footer />
-      <p className="built-by">© 2020, Built with React </p>
+      <div className="built-by-container">
+        <div className="built-with-wrapper">
+          <p className="built-with">
+            Built with{" "}
+            <a href="https://reactjs.org/" target="_blank">
+              <img className="react-icon" src={ReactIcon} alt="react-icon" />{" "}
+            </a>
+          </p>
+        </div>
+        <div className="design-wrapper">
+          Design: &nbsp;
+          <a
+            className="design-credit"
+            href="https://aj.lkn.io/"
+            target="_blank"
+          >
+            AJ - Maker of Stuff.
+          </a>{" "}
+        </div>
+      </div>
     </div>
   );
 }

@@ -4,6 +4,10 @@
   flex-direction: column;
   color: white;
   font-family: Bookman;
+  @media (max-width: 500px) {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
   .intro-name {
     display: flex;
     justify-content: center;

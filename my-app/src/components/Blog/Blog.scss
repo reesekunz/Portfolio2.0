@@ -12,7 +12,7 @@
   .section-header {
     margin-top: 24px;
     margin-bottom: 2%;
-    font-family: Bookman;
+    font-family: "Alike Angular", serif;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -45,7 +45,8 @@
     }
   }
   .blog-content {
-    font-family: "Oswald", sans-serif;
+    font-family: "Roboto", sans-serif;
+
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -104,17 +105,21 @@
         // @media (max-width: 500px) {
         //   font-size: 18px;
         // }
+        &:hover {
+          color: #20caff;
+        }
       }
     }
     .post-date {
-      color: black;
       width: 20%;
       text-align: right;
       font-style: italic;
+      font-weight: lighter;
       display: flex;
       align-items: center;
       justify-content: flex-end;
       margin-right: 1%;
+      font-family: "Roboto", sans-serif;
       @media (max-width: 1200px) {
         font-size: 12px;
       }
@@ -134,8 +139,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-family: verdana;
-    // border: 1px solid red;
+    font-family: "Roboto", sans-serif;
     width: 70%;
     margin-left: 12.5%;
     margin-top: 3%;

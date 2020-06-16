@@ -7,7 +7,7 @@
   }
   .section-header {
     margin-bottom: 5%;
-    font-family: Bookman;
+    font-family: "Alike Angular", serif;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@
       }
     }
     .contact-me {
-      font-family: Bookman;
+      font-family: "Alike Angular", serif;
       display: none;
       @media (max-width: 800px) {
         display: flex;
@@ -62,7 +62,7 @@
     }
   }
   .hire-me-content {
-    font-family: "Oswald", sans-serif;
+    font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: space-around;
     @media (max-width: 800px) {
@@ -193,8 +193,8 @@
   }
   .thank-you {
     display: none;
-    font-size: 1.3rem;
-    font-family: "Oswald", sans-serif;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
     padding-left: 3%;
     text-align: left;
 

@@ -9,7 +9,7 @@
   .section-header {
     margin-top: 0;
     margin-bottom: 2%;
-    font-family: Bookman;
+    font-family: "Alike Angular", serif;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@
       justify-content: flex-start;
       align-items: flex-start;
       font-size: 1.3rem;
-      font-family: "Oswald", sans-serif;
+      font-family: "Roboto", sans-serif;
       @media (max-width: 800px) {
         width: 80%;
         font-size: 1.15rem;

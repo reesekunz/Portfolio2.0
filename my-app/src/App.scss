@@ -9,10 +9,11 @@
     height: 100%;
     width: auto;
     @media (max-width: 500px) {
-      // margin-left: 5%;
-      // margin-right: 5%;
-      margin: 0;
-      background-color: #222;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+      // margin: 0;
+      // background-color: #222;
     }
   }
   .built-by-container {

@@ -67,5 +67,8 @@
 
   .anchor:hover {
     color: #272727;
+    @media (max-width: 500px) {
+      color: white;
+    }
   }
 }

@@ -9,9 +9,10 @@
     height: 100%;
     width: auto;
     @media (max-width: 500px) {
-      margin-left: 5%;
-      margin-right: 5%;
-      // background-color: #222;
+      // margin-left: 5%;
+      // margin-right: 5%;
+      margin: 0;
+      background-color: #222;
     }
   }
   .built-by-container {
@@ -25,8 +26,8 @@
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     @media (max-width: 500px) {
-      margin-top: 50px;
-      margin-bottom: 50px;
+      margin-top: 60px;
+      margin-bottom: 60px;
       // display: flex;
       // flex-direction: row;
     }

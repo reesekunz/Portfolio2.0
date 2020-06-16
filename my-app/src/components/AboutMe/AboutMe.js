@@ -12,7 +12,7 @@ function AboutMe() {
         <div className="about-me-text">
           <div className="content">
             I'm currently enrolled as a full-stack web development student at{" "}
-            <a href="https://lambdaschool.com/">Lambda School</a> and have been
+            <a className='lambda-school' href="https://lambdaschool.com/">Lambda School</a> and have been
             coding full-time for a little over a year. Before Lambda I graduated
             from the University of Arizona with a Bachelor's in Marketing.
           </div>

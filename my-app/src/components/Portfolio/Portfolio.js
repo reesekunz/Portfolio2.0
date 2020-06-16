@@ -50,11 +50,11 @@ function Portfolio() {
               A responsive landing page for Advice Giver, a platform connecting
               people seeking advice with those willing to provide it.
             </p>{" "}
-            <p className="tech-stack">
-              <ul className="tech-used">HTML</ul>
-              <ul className="tech-used">LESS</ul>
-              <ul className="tech-used">JavaScript</ul>
-            </p>
+            <div className="tech-stack">
+              <p className="tech-used">HTML</p>
+              <p className="tech-used">LESS</p>
+              <p className="tech-used">JavaScript</p>
+            </div>
           </div>
 
           <div className="project">
@@ -98,11 +98,11 @@ function Portfolio() {
               Random acts of kindness are generated for the user to perform
               based on their added contacts.
             </p>
-            <p className="tech-stack">
+            <div className="tech-stack">
               {" "}
-              <ul className="tech-used">JavaScript</ul>
-              <ul className="tech-used">React JS</ul>
-            </p>
+              <p className="tech-used">JavaScript</p>
+              <p className="tech-used">React JS</p>
+            </div>
           </div>
         </div>
         <div className="row">
@@ -144,11 +144,11 @@ function Portfolio() {
               </a>
               .
             </p>
-            <p className="tech-stack">
+            <div className="tech-stack">
               {" "}
-              <ul className="tech-used">Node JS</ul>
-              <ul className="tech-used">Express JS</ul>
-            </p>
+              <p className="tech-used">Node JS</p>
+              <p className="tech-used">Express JS</p>
+            </div>
           </div>
           <div className="project" id="row2">
             <a
@@ -192,12 +192,12 @@ function Portfolio() {
               </a>
               .
             </p>
-            <p className="tech-stack">
+            <div className="tech-stack">
               {" "}
-              <ul className="tech-used">React JS</ul>
-              <ul className="tech-used">Node JS</ul>
-              <ul className="tech-used">Express JS</ul>
-            </p>
+              <p className="tech-used">React JS</p>
+              <p className="tech-used">Node JS</p>
+              <p className="tech-used">Express JS</p>
+            </div>
           </div>
         </div>
       </div>

@@ -11,6 +11,7 @@
     @media (max-width: 500px) {
       margin-left: 5%;
       margin-right: 5%;
+      // background-color: #222;
     }
   }
   .built-by-container {
@@ -18,7 +19,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 35px;
+    margin-top: 120px;
+    margin-bottom: 70px;
     color: white;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;

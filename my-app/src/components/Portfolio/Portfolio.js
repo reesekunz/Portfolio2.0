@@ -50,7 +50,11 @@ function Portfolio() {
               A responsive landing page for Advice Giver, a platform connecting
               people seeking advice with those willing to provide it.
             </p>{" "}
-            <p className="tech-stack">Tech Stack: HTML, LESS, JavaScript</p>
+            <p className="tech-stack">
+              <ul className="tech-used">HTML</ul>
+              <ul className="tech-used">LESS</ul>
+              <ul className="tech-used">JavaScript</ul>
+            </p>
           </div>
 
           <div className="project">
@@ -94,7 +98,11 @@ function Portfolio() {
               Random acts of kindness are generated for the user to perform
               based on their added contacts.
             </p>
-            <p className="tech-stack">Tech Stack: JavaScript, React</p>
+            <p className="tech-stack">
+              {" "}
+              <ul className="tech-used">JavaScript</ul>
+              <ul className="tech-used">React JS</ul>
+            </p>
           </div>
         </div>
         <div className="row">
@@ -136,7 +144,11 @@ function Portfolio() {
               </a>
               .
             </p>
-            <p className="tech-stack">Tech Stack: Node, Express</p>
+            <p className="tech-stack">
+              {" "}
+              <ul className="tech-used">Node JS</ul>
+              <ul className="tech-used">Express JS</ul>
+            </p>
           </div>
           <div className="project" id="row2">
             <a
@@ -180,7 +192,12 @@ function Portfolio() {
               </a>
               .
             </p>
-            <p className="tech-stack">Tech Stack: React, Node, Express</p>
+            <p className="tech-stack">
+              {" "}
+              <ul className="tech-used">React JS</ul>
+              <ul className="tech-used">Node JS</ul>
+              <ul className="tech-used">Express JS</ul>
+            </p>
           </div>
         </div>
       </div>

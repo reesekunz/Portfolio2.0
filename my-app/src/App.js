@@ -27,6 +27,7 @@ function App() {
         <link rel="icon" type="image/png" sizes="16x16" href={Favicon32} />
       </Helmet>
       <Intro />
+      <Footer />
       <div className="main-content-container">
         <NavBar />
         <AboutMe />
@@ -34,7 +35,6 @@ function App() {
         <Blog />
         <HireMePlz />
       </div>
-      <Footer />
       <div className="built-by-container">
         <div className="built-with-wrapper">
           <p className="built-with">
@@ -45,7 +45,7 @@ function App() {
           </p>
         </div>
         <div className="design-wrapper">
-          Design by: &nbsp;
+          Design inspired by: &nbsp;
           <a
             className="design-credit"
             href="https://aj.lkn.io/"

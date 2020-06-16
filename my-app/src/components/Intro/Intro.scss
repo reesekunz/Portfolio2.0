@@ -1,12 +1,13 @@
 .intro {
   margin-top: 5%;
+  margin-bottom: 1%;
   display: flex;
   flex-direction: column;
   color: white;
   font-family: Bookman;
   @media (max-width: 500px) {
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
   }
   .intro-name {
     display: flex;

@@ -6,6 +6,18 @@
   align-items: center;
   color: white;
   margin-bottom: 1%;
+  animation: type 4s steps(60, end);
+
+  animation: fadein 4s;
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   @media (max-width: 500px) {
     margin-top: 10%;
   }

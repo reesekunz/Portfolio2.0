@@ -147,7 +147,8 @@
           align-items: center;
           font-family: "Roboto", sans-serif;
           width: 100%;
-          margin-top: 5%;
+          // margin-top: 5%;
+          // border: 1px solid red;
           .tech-used {
             border: 1px solid #20caff;
             border-radius: 5px;
@@ -181,7 +182,7 @@
           }
           .company-link {
             text-decoration: none;
-            color: purple;
+            color: indianred;
             &:hover {
               text-decoration: underline;
             }

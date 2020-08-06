@@ -12,7 +12,11 @@ function AboutMe() {
         <div className="about-me-text">
           <div className="content">
             I recently completed the full-stack web development program at{" "}
-            <a className="lambda-school" href="https://lambdaschool.com/">
+            <a
+              className="lambda-school"
+              href="https://lambdaschool.com/"
+              target="_blank"
+            >
               Lambda School
             </a>{" "}
             and have been coding for a little over a year. Before Lambda I

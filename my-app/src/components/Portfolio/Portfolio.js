@@ -1,9 +1,10 @@
 import React from "react";
 import "./Portfolio.scss";
-import AdviceGiver from "../../images/AdviceGiver.png";
 import RandomActs from "../../images/RandomActs2.png";
 import CoordinatedStories from "../../images/CoordinatedStories.png";
 import WellDone from "../../images/WellDoneScreenshot.png";
+import MRK from "../../images/MRK.png";
+
 import { IoIosInformationCircleOutline, IoLogoGithub } from "react-icons/io";
 
 function Portfolio() {
@@ -16,29 +17,29 @@ function Portfolio() {
         <div className="row">
           <div className="project">
             <a
-              href="https://infallible-lumiere-c93889.netlify.com/"
+              href="https://mrkunzspvms.com/"
               alt="project-link"
               target="_blank"
               className="project-link"
             >
-              <img src={AdviceGiver} alt="Advice Giver project screenshot" />
+              <img src={MRK} alt="Mr Kunz' Classroom project screenshot" />
             </a>
             <div className="linkz">
               <a
                 className="project-btn-link"
                 target="_blank"
-                href="https://github.com/advice-giver/Web-UI/pull/1/commits"
+                href="https://github.com/reesekunz/MrK/tree/master/mrk"
               >
                 <IoLogoGithub size={32} className="icon" />
               </a>
               <h3 className="project-name">
                 <a
-                  href="https://infallible-lumiere-c93889.netlify.com/"
+                  href="https://mrkunzspvms.com/"
                   alt="project-link"
                   target="_blank"
                   className="project-link"
                 >
-                  Advice Giver
+                  Mr. Kunz' Classroom
                 </a>
               </h3>
               <div className="project-btn-link"></div>
@@ -47,13 +48,13 @@ function Portfolio() {
               </a> */}
             </div>
             <p className="project-description">
-              A responsive landing page for Advice Giver, a platform connecting
-              people seeking advice with those willing to provide it.
+              Had a lot of fun building this unique (and some might say too
+              colorful) site for my dad, a 7th grade teacher transitioning to
+              online teaching.
             </p>{" "}
             <div className="tech-stack">
-              <p className="tech-used">HTML</p>
-              <p className="tech-used">LESS</p>
-              <p className="tech-used">JavaScript</p>
+              <p className="tech-used">React JS</p>
+              <p className="tech-used">SASS</p>
             </div>
           </div>
 
@@ -139,7 +140,11 @@ function Portfolio() {
             <p className="project-description">
               Created a central location for gathering success stories for the{" "}
               {""}
-              <a href="https://bountifulchildren.org/" target="_blank">
+              <a
+                className="company-link"
+                href="https://bountifulchildren.org/"
+                target="_blank"
+              >
                 Bountiful Children's Foundation
               </a>
               .
@@ -187,7 +192,11 @@ function Portfolio() {
             <p className="project-description">
               Built a backend to persist well sensor data and a frontend to
               visualize which pumps need maintenance for{" "}
-              <a href="https://welldone.org/" target="_blank">
+              <a
+                href="https://welldone.org/"
+                target="_blank"
+                className="company-link"
+              >
                 WellDone
               </a>
               .

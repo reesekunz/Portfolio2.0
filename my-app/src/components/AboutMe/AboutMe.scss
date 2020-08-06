@@ -79,6 +79,11 @@
         padding: 3% 0;
       }
       .lambda-school {
+        text-decoration: none;
+        color: purple;
+        &:hover {
+          text-decoration: underline;
+        }
         @media (max-width: 500px) {
           // color: #20caff;
         }

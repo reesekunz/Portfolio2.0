@@ -6,7 +6,6 @@ function Intro() {
     <div className="intro">
       <h3 className="intro-name">Reese Kunz </h3>
       <p className="intro-title">Full-Stack Developer </p>
-      {/* <p className="intro-tech-stack">JavaScript | React | Node | Python</p> */}
     </div>
   );
 }

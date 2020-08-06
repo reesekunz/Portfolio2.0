@@ -11,7 +11,7 @@ function AboutMe() {
       <div className="about-me-content">
         <div className="about-me-text">
           <div className="content">
-            I'm currently enrolled as a full-stack web development student at{" "}
+            I recently completed the full-stack web development program at{" "}
             <a className="lambda-school" href="https://lambdaschool.com/">
               Lambda School
             </a>{" "}
@@ -32,7 +32,7 @@ function AboutMe() {
           <div className="about-me-img">
             <img
               src={ReeseIMG}
-              alt="A really handsome looking guy"
+              alt="A really handsome looking guy. You should totally hire him."
               className="about-me-img"
             />
           </div>

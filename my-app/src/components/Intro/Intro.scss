@@ -7,23 +7,22 @@
   color: white;
   margin-bottom: 1%;
 
-  animation: fadein 4s;
+  // animation: fadein 4s;
 
-  @keyframes fadein {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+  // @keyframes fadein {
+  //   from {
+  //     opacity: 0;
+  //   }
+  //   to {
+  //     opacity: 1;
+  //   }
+  // }
 
   @media (max-width: 500px) {
     margin-top: 10%;
-    animation: none;
   }
   .intro-name {
-    font-family: "Caveat";
+    font-family: "Caveat", cursive;
     display: flex;
     justify-content: center;
     font-size: 3.5rem;

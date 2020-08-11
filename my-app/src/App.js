@@ -23,8 +23,8 @@ function App() {
       <Helmet>
         <title>Reese's Portfolio</title>
         <meta name="description" content="Showcasing projects I've built." />
-        <link rel="icon" type="image/png" sizes="32x32" href={Favicon16} />
-        <link rel="icon" type="image/png" sizes="16x16" href={Favicon32} />
+        <link rel="icon" type="image/png" sizes="16x16" href={Favicon16} />
+        <link rel="icon" type="image/png" sizes="32x32" href={Favicon32} />
       </Helmet>
       <Intro />
       <Footer />

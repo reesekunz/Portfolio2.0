@@ -108,10 +108,13 @@
         }
         .linkz {
           display: flex;
+          align-items: center;
           justify-content: space-between;
           .project-btn-link {
+            // border: 1px solid red;
             color: black;
             padding-left: 3%;
+            padding-right: 3%;
             padding-top: 2%;
 
             display: flex;
@@ -126,6 +129,8 @@
           }
         }
         .project-name {
+          width: 80%;
+          // border: 1px solid red;
           margin: 0;
           font-size: 1.4rem;
           margin-top: 4%;

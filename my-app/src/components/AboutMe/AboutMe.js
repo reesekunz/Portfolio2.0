@@ -11,7 +11,7 @@ function AboutMe() {
       <div className="about-me-content">
         <div className="about-me-text">
           <div className="content">
-            I recently completed the full-stack web development program at{" "}
+            I recently completed the full-stack web development bootcamp at{" "}
             <a
               className="lambda-school"
               href="https://lambdaschool.com/"
@@ -19,9 +19,9 @@ function AboutMe() {
             >
               Lambda School
             </a>{" "}
-            and have been coding for a little over a year. Before Lambda I
-            graduated from the University of Arizona with a Bachelor's in
-            Marketing.
+            and have been coding full-time for a little over a year. Before
+            Lambda I graduated from the University of Arizona with a Bachelor's
+            in Marketing.
           </div>
           <div className="content">
             I decided to pursue a career in web development because I'm

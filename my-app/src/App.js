@@ -31,8 +31,8 @@ function App() {
       <div className="main-content-container">
         <NavBar />
         <AboutMe />
-        <Portfolio />
         <Blog />
+        <Portfolio />
         <HireMePlz />
       </div>
       <div className="built-by-container">

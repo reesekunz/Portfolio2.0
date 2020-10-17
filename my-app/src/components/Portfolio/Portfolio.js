@@ -42,10 +42,10 @@ function Portfolio() {
                   Mr. Kunz' Classroom
                 </a>
               </h3>
-              {/* <div className="project-btn-link"></div> */}
-              <a className="project-btn-link" target="_blank" href="#">
+              <div className="project-btn-link"></div>
+              {/* <a className="project-btn-link" target="_blank" href="#">
                 <IoIosInformationCircleOutline size={32} />
-              </a>
+              </a> */}
             </div>
             <p className="project-description">
               Had a lot of fun building this unique (and some might say too
@@ -88,11 +88,11 @@ function Portfolio() {
                   Random Acts Generator
                 </a>
               </h3>
-              {/* <div className="project-btn-link"></div> */}
+              <div className="project-btn-link"></div>
 
-              <a className="project-btn-link" target="_blank" href="#">
+              {/* <a className="project-btn-link" target="_blank" href="#">
                 <IoIosInformationCircleOutline size={32} />
-              </a>
+              </a> */}
             </div>
 
             <p className="project-description">
@@ -130,11 +130,11 @@ function Portfolio() {
                   Coordinated Story Telling
                 </a>
               </h3>
-              {/* <div className="project-btn-link"></div> */}
+              <div className="project-btn-link"></div>
 
-              <a className="project-btn-link" target="_blank" href="#">
+              {/* <a className="project-btn-link" target="_blank" href="#">
                 <IoIosInformationCircleOutline size={32} />
-              </a>
+              </a> */}
             </div>
 
             <p className="project-description">
@@ -183,10 +183,10 @@ function Portfolio() {
                   WellDone
                 </a>
               </h3>{" "}
-              {/* <div className="project-btn-link"></div> */}
-              <a className="project-btn-link" target="_blank" href="#">
+              <div className="project-btn-link"></div>
+              {/* <a className="project-btn-link" target="_blank" href="#">
                 <IoIosInformationCircleOutline size={32} />
-              </a>
+              </a> */}
             </div>
 
             <p className="project-description">

@@ -79,13 +79,14 @@
         padding: 3% 0;
       }
       .lambda-school {
-        text-decoration: none;
-        color: mediumpurple;
-        color: #0093e9;
+        // text-decoration: none;
+        // color: mediumpurple;
+        // color: #0093e9;
+        color: black;
 
-        &:hover {
-          text-decoration: underline;
-        }
+        // &:hover {
+        //   text-decoration: underline;
+        // }
         @media (max-width: 500px) {
           // color: #20caff;
         }

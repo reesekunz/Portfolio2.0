@@ -15,46 +15,57 @@ function Portfolio() {
       </div>
       <div className="project-container">
         <div className="row">
-          <div className="project">
+          <div className="project" id="row2">
             <a
-              href="https://mrkunzspvms.com/"
+              href="https://welldone-water.now.sh/"
               alt="project-link"
               target="_blank"
               className="project-link"
             >
-              <img src={MRK} alt="Mr Kunz' Classroom project screenshot" />
+              <img src={WellDone} alt="WellDone project screenshot" />
             </a>
             <div className="linkz">
               <a
+                href="https://github.com/labs17-WellDone"
                 className="project-btn-link"
                 target="_blank"
-                href="https://github.com/reesekunz/MrK/tree/master/mrk"
               >
+                {" "}
                 <IoLogoGithub size={32} className="icon" />
               </a>
               <h3 className="project-name">
                 <a
-                  href="https://mrkunzspvms.com/"
+                  href="https://welldone-water.now.sh/"
                   alt="project-link"
                   target="_blank"
                   className="project-link"
                 >
-                  Mr. Kunz' Classroom
+                  WellDone
                 </a>
-              </h3>
+              </h3>{" "}
               <div className="project-btn-link"></div>
               {/* <a className="project-btn-link" target="_blank" href="#">
                 <IoIosInformationCircleOutline size={32} />
               </a> */}
             </div>
+
             <p className="project-description">
-              Had a lot of fun building this unique (and some might say too
-              colorful) site for my dad, a 7th grade teacher transitioning to
-              online teaching.
-            </p>{" "}
+              Built a backend to persist well sensor data and a frontend to
+              visualize which pumps need maintenance for{" "}
+              <a
+                href="https://welldone.org/"
+                target="_blank"
+                className="company-link"
+              >
+                WellDone
+              </a>
+              .
+            </p>
             <div className="tech-stack">
+              {" "}
               <p className="tech-used">React JS</p>
-              <p className="tech-used">SASS</p>
+              <p className="tech-used">Node JS</p>
+              <p className="tech-used">Express JS</p>
             </div>
           </div>
 
@@ -155,57 +166,46 @@ function Portfolio() {
               <p className="tech-used">Express JS</p>
             </div>
           </div>
-          <div className="project" id="row2">
+          <div className="project">
             <a
-              href="https://welldone-water.now.sh/"
+              href="https://mrkunzspvms.com/"
               alt="project-link"
               target="_blank"
               className="project-link"
             >
-              <img src={WellDone} alt="WellDone project screenshot" />
+              <img src={MRK} alt="Mr Kunz' Classroom project screenshot" />
             </a>
             <div className="linkz">
               <a
-                href="https://github.com/labs17-WellDone"
                 className="project-btn-link"
                 target="_blank"
+                href="https://github.com/reesekunz/MrK/tree/master/mrk"
               >
-                {" "}
                 <IoLogoGithub size={32} className="icon" />
               </a>
               <h3 className="project-name">
                 <a
-                  href="https://welldone-water.now.sh/"
+                  href="https://mrkunzspvms.com/"
                   alt="project-link"
                   target="_blank"
                   className="project-link"
                 >
-                  WellDone
+                  Mr. Kunz' Classroom
                 </a>
-              </h3>{" "}
+              </h3>
               <div className="project-btn-link"></div>
               {/* <a className="project-btn-link" target="_blank" href="#">
                 <IoIosInformationCircleOutline size={32} />
               </a> */}
             </div>
-
             <p className="project-description">
-              Built a backend to persist well sensor data and a frontend to
-              visualize which pumps need maintenance for{" "}
-              <a
-                href="https://welldone.org/"
-                target="_blank"
-                className="company-link"
-              >
-                WellDone
-              </a>
-              .
-            </p>
+              Had a lot of fun building this unique (and some might say too
+              colorful) site for my dad, a 7th grade teacher transitioning to
+              online teaching.
+            </p>{" "}
             <div className="tech-stack">
-              {" "}
               <p className="tech-used">React JS</p>
-              <p className="tech-used">Node JS</p>
-              <p className="tech-used">Express JS</p>
+              <p className="tech-used">Sass</p>
             </div>
           </div>
         </div>

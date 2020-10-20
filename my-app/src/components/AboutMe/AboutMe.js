@@ -20,13 +20,13 @@ function AboutMe() {
               Lambda School
             </a>{" "}
             and am currently targeting my first Front-End/Full-Stack developer
-            role. Before Lambda I graduated from the University of Arizona with
-            a Bachelor's in Marketing.
+            role.
           </div>
           <div className="content">
-            I decided to pursue a career in web development because I'm
-            interested in helping fix societal problems and improving others'
-            quality of life through technology.
+            Before Lambda I graduated from the University of Arizona with a
+            Bachelor's in Marketing. I decided to pursue a career in web
+            development because I'm interested in helping fix societal problems
+            and improving others' quality of life through technology.
           </div>
           <div className="content">
             Other interests include: 🏀, ✍️, {""}📺, {""}🎮, {""}🍹

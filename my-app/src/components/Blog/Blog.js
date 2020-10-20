@@ -91,8 +91,9 @@ function Blog() {
       <div className="resume-wrapper">
         <p className="download-resume">
           <Link to="/Reese_Resume.pdf" target="_blank" download>
-            Download Resume <IoIosRocket size={32} className="icon" />
+            Download Resume
           </Link>
+          <IoIosRocket size={32} className="icon" color="#0093e9" />
         </p>
       </div>
     </div>

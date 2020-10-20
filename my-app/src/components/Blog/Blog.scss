@@ -59,19 +59,16 @@
     }
 
     .column {
-      .skills-p {
-        margin-left: 10%;
-      }
       @media (max-width: 800px) {
         width: 100%;
       }
 
-      width: 33%;
+      width: 50%;
       // border: 1px solid black;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: center;
       .tech {
         margin: 5px;
         // border: 1px solid red;
@@ -85,16 +82,19 @@
           font-weight: normal;
         }
       }
-      .resume-wrapper {
-        // border: 1px solid black;
-        border-radius: 5px;
-        padding: 2%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .download-resume {
-          color: black;
-        }
+    }
+  }
+  .resume-wrapper {
+    // border: 1px solid black;
+    border-radius: 5px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .download-resume {
+      a {
+        color: black;
+        color: #0093e9;
       }
     }
   }

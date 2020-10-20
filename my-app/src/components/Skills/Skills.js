@@ -1,5 +1,5 @@
 import React from "react";
-import "./Blog.scss";
+import "./Skills.scss";
 import { IoIosRocket, IoLogoJavascript } from "react-icons/io";
 import {
   FaReact,
@@ -13,18 +13,15 @@ import { RiGatsbyFill, RiTestTubeFill, RiCodeSSlashLine } from "react-icons/ri";
 import { GiMeatHook, GiCycle } from "react-icons/gi";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { SiDjango } from "react-icons/si";
-
-// import { GrGatsbyjs } from "react-icons/gr";
-// import { GrGatsbyjs } from "grommet-icons";
-
 import { Link } from "react-router-dom";
-function Blog() {
+
+function Skills() {
   return (
-    <div className="blog-container" id="skills">
+    <div className="skills-container" id="skills">
       <div className="section-header">
         <span>Skills</span>
       </div>
-      <div className="blog-content">
+      <div className="skills-content">
         <div className="column">
           <p className="tech">
             <AiOutlineConsoleSql size={25} color="black" />
@@ -100,4 +97,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Skills;

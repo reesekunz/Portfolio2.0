@@ -20,22 +20,29 @@ import { SiDjango } from "react-icons/si";
 import { Link } from "react-router-dom";
 function Blog() {
   return (
-    <div className="blog-container" id="blog">
+    <div className="blog-container" id="skills">
       <div className="section-header">
         <span>Skills</span>
       </div>
       <div className="blog-content">
         <div className="column" id="1">
-          <p>
+          <p className="skills-p">
             I have over a year of experience working primarily with these
-            technologies to provide creative, user-friendly, and accessible
+            technologies building creative, user-friendly, and accessible
             single-page applications. Always down to learn new technologies,
             too!
           </p>
           <div className="resume-wrapper">
-            <Link to="/Reese_Resume.pdf" target="_blank" download>
-              Resume <IoIosRocket size={32} className="icon" />
-            </Link>
+            <p className="download-resume">
+              <Link
+                color="black"
+                to="/Reese_Resume.pdf"
+                target="_blank"
+                download
+              >
+                Download Resume <IoIosRocket size={32} className="icon" />
+              </Link>
+            </p>
           </div>
         </div>
         <div className="column" id="2">

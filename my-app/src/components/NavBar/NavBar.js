@@ -47,6 +47,18 @@ function NavBar() {
             </div>
             <div className="nav-item">
               <Link
+                activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Skills
+              </Link>
+            </div>
+            <div className="nav-item">
+              <Link
                 className="link"
                 activeClass="active"
                 to="portfolio"
@@ -58,18 +70,7 @@ function NavBar() {
                 Portfolio
               </Link>
             </div>
-            <div className="nav-item">
-              <Link
-                activeClass="active"
-                to="blog"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Blog
-              </Link>
-            </div>
+
             <div className="nav-item">
               <Link
                 className="link"

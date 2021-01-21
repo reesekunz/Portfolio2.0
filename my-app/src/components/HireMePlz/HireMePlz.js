@@ -36,10 +36,10 @@ function HireMePlz() {
       </div>
       <div className="hire-me-content">
         <div className="hire-me-text">
-          <div className="content">
+          {/* <div className="content">
             I'm seeking a full-time position and would love to chat! I'm open to
             relocation or remote work.
-          </div>
+          </div> */}
           <div className="content">
             If you just want to chat, ask a question, or meet up for coffee (or
             tiki drink), let me know 🙂

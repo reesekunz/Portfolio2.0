@@ -3,7 +3,7 @@ import "./Portfolio.scss";
 import RandomActs from "../../images/RandomActs2.png";
 import CoordinatedStories from "../../images/CoordinatedStories.png";
 import WellDone from "../../images/WellDoneScreenshot.png";
-import MRK from "../../images/MRK.png";
+import Gemint from "../../images/Gemint.png";
 
 import { IoIosInformationCircleOutline, IoLogoGithub } from "react-icons/io";
 
@@ -168,29 +168,30 @@ function Portfolio() {
           </div>
           <div className="project">
             <a
-              href="https://mrkunzspvms.com/"
+              href="https://gemint.com/"
               alt="project-link"
               target="_blank"
               className="project-link"
             >
-              <img src={MRK} alt="Mr Kunz' Classroom project screenshot" />
+              <img src={Gemint} alt="Gemint project screenshot" />
             </a>
             <div className="linkz">
               <a
                 className="project-btn-link"
                 target="_blank"
-                href="https://github.com/reesekunz/MrK/tree/master/mrk"
+                href="https://github.com/gemint/gemint-waitlist"
               >
                 <IoLogoGithub size={32} className="icon" />
+                
               </a>
               <h3 className="project-name">
                 <a
-                  href="https://mrkunzspvms.com/"
+                  href="https://gemint.com/"
                   alt="project-link"
                   target="_blank"
                   className="project-link"
                 >
-                  Mr. Kunz' Classroom
+                  Gemint
                 </a>
               </h3>
               <div className="project-btn-link"></div>
@@ -199,12 +200,11 @@ function Portfolio() {
               </a> */}
             </div>
             <p className="project-description">
-              Had a lot of fun building this unique (and some might say too
-              colorful) site for my dad, a 7th grade teacher transitioning to
-              online teaching.
+            Gemint is a platform to connect sports card breakers and buyers with card breaking tools.
             </p>{" "}
             <div className="tech-stack">
               <p className="tech-used">React JS</p>
+              <p className="tech-used">Express JS</p>
               <p className="tech-used">Sass</p>
             </div>
           </div>

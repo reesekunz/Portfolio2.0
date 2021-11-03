@@ -10,9 +10,9 @@ import NavBar from "./components/NavBar/NavBar";
 import Skills from "./components/Skills/Skills";
 import Favicon16 from "./images/favicon-16x16.png";
 import Favicon32 from "./images/favicon-32x32.png";
-import ReactGA from "react-ga";
 import ReactIcon from "./images/ReactIcon.png";
 
+import ReactGA from "react-ga";
 const trackingId = "UA-156067052-1"; // Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);

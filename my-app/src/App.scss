@@ -1,5 +1,8 @@
 .App {
   padding-top: 100px;
+  @media (max-width: 500px) {
+    padding-top: 20px;
+  }
   .main-content-container {
     text-align: center;
     background-color: #f0f8ff;

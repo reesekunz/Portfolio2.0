@@ -34,7 +34,7 @@ function Footer() {
       >
         <IoLogoTwitter className="logo-icon" size={40} color="white" />
       </a>
-      <a
+      {/* <a
         href="https://www.instagram.com/reesekunz"
         className="footer-icon"
         target="_blank"
@@ -49,7 +49,7 @@ function Footer() {
         id="facebook"
       >
         <IoLogoFacebook className="logo-icon" size={40} color="white" />
-      </a>
+      </a> */}
       {/* Mobile view  */}
       <a
         href="https://github.com/reesekunz"
@@ -75,7 +75,7 @@ function Footer() {
       >
         <IoLogoTwitter className="logo-icon" size={30} color="white" />
       </a>
-      <a
+      {/* <a
         href="https://www.instagram.com/reesekunz"
         className="footer-icon-mobile"
         target="_blank"
@@ -90,7 +90,7 @@ function Footer() {
         id="facebook"
       >
         <IoLogoFacebook className="logo-icon" size={30} color="white" />
-      </a>
+      </a> */}
     </div>
   );
 }

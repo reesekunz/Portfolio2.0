@@ -41,8 +41,7 @@ function HireMePlz() {
             relocation or remote work.
           </div> */}
           <div className="content">
-            If you just want to chat, ask a question, or meet up for coffee (or
-            tiki drink), let me know 🙂
+          I'm currently seeking new opportunities, preferably either remote or in the Portland, OR area.
           </div>
         </div>
         <div className="hire-me-wrapper">
@@ -65,7 +64,7 @@ function HireMePlz() {
       </div>
       <p className="thank-you">
         Thanks for your inquiry! I will try to get back to you as soon as
-        possible. ❤️
+        possible.
       </p>
     </div>
   );

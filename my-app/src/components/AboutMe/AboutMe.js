@@ -11,24 +11,32 @@ function AboutMe() {
       <div className="about-me-content">
         <div className="about-me-text">
           <div className="content">
-            I recently completed the full-stack web development bootcamp at{" "}
-            <a
+          I'm a full-stack web developer with a background in marketing. Currently I'm working at a startup called <a
+              className="lambda-school"
+              href="https://gemint.com/"
+              target="_blank"
+            >
+              Gemint
+            </a> while also taking courses through Oregon State to get my               technical writing certification.
+{/* <a
+              className="lambda-school"
+              href="https://workspace.oregonstate.edu/certificate/technical-writing-certificate"
+              target="_blank"
+            >
+              technical writing certification.
+            </a>  */}
+          </div>
+          <div className="content">
+          During my time at  <a
               className="lambda-school"
               href="https://lambdaschool.com/"
               target="_blank"
             >
               Lambda School
-            </a>
-            . Before Lambda I graduated from the University of Arizona with a
-            Bachelor's in Marketing.
+            </a> (now called BloomTech) I gained valuable experience working with a wide variety of technologies, but primarly focused on: ReactJS, JavaScript, NodeJS, ExpressJS, and Python.
           </div>
           <div className="content">
-            I decided to get into web development because I'm interested in
-            helping fix societal problems and improving others' quality of life
-            through technology.
-          </div>
-          <div className="content">
-            Other interests include: 🏀, ✍️, {""}📺, {""}🎮, {""}🍹
+            Other interests include: 🏀, ✍️, {""}📺, {""}🎮, {""}⛰️
           </div>
         </div>
         <div className="about-me-img-container">

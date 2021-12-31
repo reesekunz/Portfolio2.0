@@ -80,8 +80,10 @@
       }
       .lambda-school {
         text-decoration: none;
-        color: black;
-        color: indianred;
+        color: #0093e9;
+        &:hover {
+          text-decoration: underline;
+        }
 
         // &:hover {
         //   text-decoration: underline;

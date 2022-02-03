@@ -47,14 +47,16 @@
   .about-me-content {
     display: flex;
     justify-content: space-around;
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
     }
     .about-me-text {
-      margin: 30px 0 0 0;
+      margin-top: 30px;
+      // margin-right: 50px;
+
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -62,9 +64,10 @@
       align-items: flex-start;
       font-size: 1.3rem;
       font-family: "Roboto", sans-serif;
-      @media (max-width: 800px) {
+      @media (max-width: 1000px) {
         width: 80%;
         font-size: 1.15rem;
+        margin-right: 0;
       }
       @media (max-width: 500px) {
         width: 100%;
@@ -79,11 +82,11 @@
         padding: 3% 0;
       }
       .lambda-school {
-        text-decoration: none;
-        color: #0093e9;
-        &:hover {
-          text-decoration: underline;
-        }
+        text-decoration: underline;
+        color: black;
+        // &:hover {
+        //   text-decoration: underline;
+        // }
 
         // &:hover {
         //   text-decoration: underline;
@@ -94,13 +97,14 @@
       }
     }
     .about-me-img-container {
+      margin-top: 30px;
       margin-right: 6%;
       margin-left: 0;
       // background-image: linear-gradient(#0093e9 0%, #80d0c7 100%);
       // border: 1px solid black;
       border-radius: 50%;
       // padding: 3px;
-      @media (max-width: 800px) {
+      @media (max-width: 1000px) {
         margin-top: 4%;
         margin-right: 0%;
       }
@@ -119,7 +123,7 @@
         padding: 2px;
 
         // box-sizing: border-box;
-        @media (max-width: 800px) {
+        @media (max-width: 1000px) {
           height: 250px;
           width: 230px;
         }

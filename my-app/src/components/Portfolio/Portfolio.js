@@ -6,6 +6,10 @@ import WellDone from "../../images/WellDoneScreenshot.png";
 import Gemint2 from "../../images/Gemint2.png"
 import { Link } from "react-router-dom";
 import { BsArrowRightShort } from "react-icons/bs";
+import Coffee from "../../images/coffee.jpeg";
+import Muffin from "../../images/muffin.jpeg";
+import UniversalDesign from "../../images/universal_design.jpeg";
+
 
 
 
@@ -18,77 +22,238 @@ function Portfolio() {
       <div className="section-header">
         <span className="portfolio-header">Portfolio</span>
       </div>
-      <div className="project-container">
+
+    <div className='portfolio-wrapper'>
+      <h2 className='secondary-header'>
+      Web Development Projects
+      </h2>
+      {/* Gemint */}
+      <div className='project'>
+      
+<div className='left-side'>
+<h3 className='project-number'>
+Work 01
+</h3>
+              <h1 className="project-name">
+                
+                Gemint
+              
+              </h1>
+
+            <p className='project-description'>Gemint is a platform to connect sports card breakers and buyers with card breaking tools.
+</p>
+<button className='details-btn'>
+<Link className='details-link' to="/gemint">Project details</Link>
+</button>
+</div>
+{/* <div className='middle'></div> */}
+<div className='right-side'>
+<div id='project-img-wrapper'>
+<img id='project-img' src={Gemint2} />
+
+</div>
+</div>
+      </div>
+      {/* WellDone  */}
+      <div className='project'>
+      
+      <div className='left-side'>
+      <h3 className='project-number'>
+      Work 02
+      </h3>
+                    <h1 className="project-name">
+                      
+                      WellDone
+                    
+                    </h1>
+      
+                  <p className='project-description'> Built a backend to persist well sensor data and a frontend to
+              visualize which pumps need maintenance for{" "}
+              <a
+                href="https://welldone.org/"
+                target="_blank"
+                className="company-link"
+              >
+                WellDone
+              </a>.
+      </p>
+      <button className='details-btn'>
+      <Link className='details-link' to="/welldone">Project details</Link>
+      </button>
+      </div>
+      {/* <div className='middle'></div> */}
+      <div className='right-side'>
+      <div id='project-img-wrapper'>
+      <img id='project-img' src={WellDone} />
+      
+      </div>
+      </div>
+            </div>
+      
+      {/* Coordinated Story Telling  */}
+      <div className='project'>
+      
+      <div className='left-side'>
+      <h3 className='project-number'>
+      Work 03
+      </h3>
+                    <h1 className="project-name">
+                      
+                    Coordinated Story Telling 
+                    
+                    </h1>
+      
+                  <p className='project-description'> Created a central location for gathering success stories for the{" "}
+              {""}
+              <a
+                className="company-link"
+                href="https://bountifulchildren.org/"
+                target="_blank"
+              >
+                Bountiful Children's Foundation
+              </a>
+              .
+      </p>
+      <button className='details-btn'>
+      <Link className='details-link' to="/storytelling">Project details</Link>
+      </button>
+      </div>
+      {/* <div className='middle'></div> */}
+      <div className='right-side'>
+      <div id='project-img-wrapper'>
+      <img id='project-img' src={CoordinatedStories} />
+      
+      </div>
+      </div>
+            </div>
+      <h2 className='secondary-header'>
+      Technical Writing Samples
+      </h2>      
+      <div className='project'>
+      
+      <div className='left-side'>
+      <h3 className='project-number'>
+      Work 01
+      </h3>
+                    <h1 className="project-name">
+                      
+                    Keurig Owner’s Manual
+                    
+                    </h1>
+      
+                  <p className='project-description'>Sample owner’s manual for the K-Classic Coffee Maker.
+      </p>
+      <button className='details-btn'>
+      <Link className='details-link' to="/Keurig_Owners_Manual.pdf" target="_blank" download>
+              Download PDF
+            </Link>      </button>
+      </div>
+      {/* <div className='middle'></div> */}
+      <div className='right-side'>
+      <div id='project-img-wrapper'>
+      <img id='project-img' src={Coffee} />
+      <p className='img-caption'>
+      Photo by Kaboompics on Pexels.com
+      </p>
+      </div>
+      </div>
+            </div>
+            <div className='project'>
+      
+      <div className='left-side'>
+      <h3 className='project-number'>
+      Work 02
+      </h3>
+                    <h1 className="project-name">
+                      
+                    Recipe Process and Procedure Flow
+                    
+                    </h1>
+      
+                  <p className='project-description'>A detailed process and procedure flow for a delicious blueberry muffin recipe.
+      </p>
+      <button className='details-btn'>
+      <Link className='details-link' to="/Recipe_Process_Flow.pdf" target="_blank" download>
+              Download PDF
+            </Link>      </button>
+      </div>
+      {/* <div className='middle'></div> */}
+      <div className='right-side'>
+      <div id='project-img-wrapper'>
+      <img id='project-img' src={Muffin} />
+      <p className='img-caption'>
+      Photo by Ela Haney on Pexels.com
+      </p>
+      </div>
+      </div>
+            </div>
+            <div className='project'>
+      
+      <div className='left-side'>
+      <h3 className='project-number'>
+      Work 03
+      </h3>
+                    <h1 className="project-name">
+                      
+                    Universal Design Principles Presentation
+                    
+                    </h1>
+      
+                  <p className='project-description'>A PowerPoint presentation highlighting key aspects of universal design principles.
+      </p>
+      <button className='details-btn'>
+      <Link className='details-link' to="/UX_Design.pdf" target="_blank" download>
+              Download PDF
+            </Link>      </button>
+      </div>
+      {/* <div className='middle'></div> */}
+      <div className='right-side'>
+      <div id='project-img-wrapper'>
+      <img id='project-img' src={UniversalDesign} />
+      <p className='img-caption'>
+      Photo by Kaboompics on Pexels.com
+      </p>
+      </div>
+      </div>
+            </div>
+      </div>
+      {/* <div className="project-container">
         <div className="row">
         <div className="project">
           
               <img src={Gemint2} alt="Gemint project screenshot" />
             
-              {/* <a
-                className="project-btn-link"
-                target="_blank"
-                href="https://github.com/gemint/gemint-waitlist"
-              >
-                <IoLogoGithub size={32} className="icon" />
-                
-              </a> */}
+           
               <Link  to="/gemint">
               <h3 className="project-name">
                 
                 Gemint
-                {/* <a
-                  href="https://gemint.com/"
-                  alt="project-link"
-                  target="_blank"
-                  className="project-link"
-                >
-                  Gemint
-                </a> */}
+              
               </h3>
               </Link>
             <p className="project-description">
             Gemint is a platform to connect sports card breakers and buyers with card breaking tools.
             </p>{" "}
-            <Link className='read-more-link' to="/gemint">Read more  </Link>
+            <Link className='read-more-link' to="/gemint">👉 {""} Project details</Link>
 
-            {/* <div className="tech-stack">
-              <p className="tech-used">React JS</p>
-              <p className="tech-used">Express JS</p>
-              <p className="tech-used">Sass</p>
-            </div> */}
+          
           </div>
           <div className="project" id="row2">
          
               <img src={WellDone} alt="WellDone project screenshot" />
             <div className="linkz">
-              {/* <a
-                href="https://github.com/labs17-WellDone"
-                className="project-btn-link"
-                target="_blank"
-              >
-                {" "}
-                <IoLogoGithub size={32} className="icon" />
-              </a> */}
+          
                             <Link  to="/welldone">
 
               <h3 className="project-name">
               WellDone
 
-                {/* <a
-                  href="https://welldone-water.now.sh/"
-                  alt="project-link"
-                  target="_blank"
-                  className="project-link"
-                >
-                  WellDone
-                </a> */}
+             
               </h3>{" "}
               </Link>
 
               <div className="project-btn-link"></div>
-              {/* <a className="project-btn-link" target="_blank" href="#">
-                <IoIosInformationCircleOutline size={32} />
-              </a> */}
+           
             </div>
 
             <p className="project-description">
@@ -103,13 +268,8 @@ function Portfolio() {
               </a>.
               
             </p>
-            {/* <div className="tech-stack">
-              {" "}
-              <p className="tech-used">React JS</p>
-              <p className="tech-used">Node JS</p>
-              <p className="tech-used">Express JS</p>
-            </div> */}
-            <Link className='read-more-link' to="/welldone">Read more</Link>
+        
+            <Link className='read-more-link' to="/welldone">Project details</Link>
           </div>
 
          
@@ -120,31 +280,16 @@ function Portfolio() {
               src={CoordinatedStories}
               alt="Coordinated Stories project screenshot"
             />
-              {/* <a
-                href="https://github.com/Coordinated-Story-Telling/Back-End"
-                className="project-btn-link"
-                target="_blank"
-              >
-                <IoLogoGithub size={32} className="icon" />
-              </a> */}
+      
                                           <Link  to="/storytelling">
 
               <h3 className="project-name">
               Coordinated Story Telling
 
-                {/* <a
-                  href="https://coordinated-stories.herokuapp.com/api/stories"
-                  alt="project-link"
-                  target="_blank"
-                  className="project-link"
-                >
-                  Coordinated Story Telling
-                </a> */}
+            
               </h3>
               </Link>
-              {/* <a className="project-btn-link" target="_blank" href="#">
-                <IoIosInformationCircleOutline size={32} />
-              </a> */}
+           
 
             <p className="project-description">
               Created a central location for gathering success stories for the{" "}
@@ -158,41 +303,12 @@ function Portfolio() {
               </a>
               .
             </p>
-            {/* <div className="tech-stack">
-              {" "}
-              <p className="tech-used">Node JS</p>
-              <p className="tech-used">Express JS</p>
-            </div> */}
-            <Link className='read-more-link' to="/storytelling">Read more </Link>
+       
+            <Link className='read-more-link' to="/storytelling">Project details </Link>
           </div>
-          {/* Project here  */}
-          {/* <div className="project">
-         
-              <img
-                src={RandomActs}
-                alt="Random Acts Generator project screenshot"
-              />
-         
-                                                        <Link  to="/randomacts">
-
-              <h3 className="project-name">
-              Random Acts Generator
-
-           
-              </h3>
-              </Link>
-            
-
-            <p className="project-description">
-              Random acts of kindness are generated for the user to perform
-              based on their added contacts.
-            </p>
-
-            <Link className='read-more-link' to="/randomacts">Read more <BsArrowRightShort size={25}/></Link>
-         
-          </div> */}
+        
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

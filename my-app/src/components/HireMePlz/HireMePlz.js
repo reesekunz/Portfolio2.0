@@ -30,7 +30,8 @@ function HireMePlz() {
     <div className="hire-me-container" id="contact">
       <div className="section-header" id="contact-header">
         <span className="looking-to-hire">
-          Looking to hire a web developer?
+          {/* Looking to hire a web developer? */}
+          Contact Me
         </span>
         <span className="contact-me">Contact Me</span>
       </div>
@@ -41,7 +42,7 @@ function HireMePlz() {
             relocation or remote work.
           </div> */}
           <div className="content">
-          I'm currently seeking new opportunities, preferably either remote or in the Portland, OR area.
+         I'm open to hearing about new opportunities, preferably either remote or in the Portland area. Please reach out either through this contact form or on any social media listed at the top of the page. Thanks! 
           </div>
         </div>
         <div className="hire-me-wrapper">

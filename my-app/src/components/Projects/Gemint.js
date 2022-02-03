@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { BsArrowLeft } from "react-icons/bs";
 
 
+
 function Gemint () {
     React.useEffect(() => {
         window.scrollTo(0, 0);
@@ -39,13 +40,16 @@ function Gemint () {
              {/* Role */}
              <div className='project-section'>
             <h3 className='project-header'>Role</h3>
-            <h4 className='role-header'>Frontend Developer I</h4>
+            <h4 className='role-header'>Full-Stack Developer</h4>
             <p className='project-p'>A fun and challenging part of working at a startup is the variety of roles you work in. Here's what I've worked on so far:</p>
             <ul className='role-ul'>
                 <li className='role-li'>Communicated with multiple stakeholders, including product owners and UX designers, to establish development priorities and delivery timelines</li>
                 <li className='role-li'>Implemented UI/UX for React-based web application with REST API state management</li>
                 <li className='role-li'>Built custom features such as the Randomizers to provide more value on the platform</li>
-                <li className='role-li'>Oversaw technical process with short-term contractors, managing Git workflow and assisting where necessary </li>
+                {/* <li className='role-li'>Oversaw technical process with short-term contractors, managing Git workflow and assisting where necessary </li> */}
+                {/* <li className='role-li'>Pitched tech to investors? </li> */}
+                {/* <li className='role-li'>Managed twitter account? </li> */}
+
 
             </ul>
             </div>
@@ -67,8 +71,8 @@ function Gemint () {
               <div className='project-section'>
             <h3 className='project-header'>Stats</h3>
             <ul className='role-ul'>
-                <li className='role-li'>60 paid monthly subscribers for Premium Randomizer since launching product in September, 2021.</li>
-                <li className='role-li'>1.4K users since October 29, 2021</li>
+                <li className='role-li'>412 registered free users since launching product in September, 2021</li>
+                <li className='role-li'>70 paid monthly subscribers for Premium Randomizer since premium offering in October, 2021.</li>
                 <li className='role-li'>Last 30 days: 910 users, 2.5K sessions, 65% bounce rate, 4m 28s session duration</li>
                 <li className='role-li'>12.6K followers on Instagram</li>
 

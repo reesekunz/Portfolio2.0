@@ -32,7 +32,6 @@
         );
       }
       @media (max-width: 500px) {
-        // color: white;
         font-size: 1.7rem;
         margin-top: 7%;
         margin-bottom: 3%;
@@ -55,8 +54,6 @@
     }
     .about-me-text {
       margin-top: 30px;
-      // margin-right: 50px;
-
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -72,7 +69,6 @@
       @media (max-width: 500px) {
         width: 100%;
         font-size: 1rem;
-        // color: white;
       }
       li {
         margin-top: 4.5%;
@@ -84,26 +80,14 @@
       .lambda-school {
         text-decoration: underline;
         color: black;
-        // &:hover {
-        //   text-decoration: underline;
-        // }
-
-        // &:hover {
-        //   text-decoration: underline;
-        // }
-        @media (max-width: 500px) {
-          // color: #20caff;
-        }
       }
     }
     .about-me-img-container {
       margin-top: 30px;
       margin-right: 6%;
       margin-left: 0;
-      // background-image: linear-gradient(#0093e9 0%, #80d0c7 100%);
-      // border: 1px solid black;
+
       border-radius: 50%;
-      // padding: 3px;
       @media (max-width: 1000px) {
         margin-top: 4%;
         margin-right: 0%;
@@ -122,7 +106,6 @@
         border: 1px solid black;
         padding: 2px;
 
-        // box-sizing: border-box;
         @media (max-width: 1000px) {
           height: 250px;
           width: 230px;
@@ -130,9 +113,6 @@
         @media (max-width: 500px) {
           height: 215px;
           width: 215px;
-          // border: 1px solid white;
-          // box-shadow: 0px 0px 3px white;
-          // padding: 0.5%;
         }
       }
     }

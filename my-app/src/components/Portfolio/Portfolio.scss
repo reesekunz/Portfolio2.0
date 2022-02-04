@@ -44,13 +44,8 @@
   }
   .portfolio-wrapper {
     margin-top: 50px;
-    // margin-left: 2.5%;
-    // margin-right: 2.5%;
-    // border: 1px solid red;
-    @media (max-width: 500px) {
-      // margin-left: 10%;
-      // margin-right: 10%;
-    }
+    
+  
     .secondary-header {
       margin-top: 50px;
 
@@ -66,16 +61,15 @@
     justify-content: flex-start;
     width: 100%;
     margin-top: 125px;
-    // margin-bottom: 125px;
     margin-bottom: 200px;
 
     @media (max-width: 1000px) {
       flex-direction: column-reverse;
       align-items: center;
+      margin-top: 50px;
+      margin-bottom: 250px;
     }
-    // @media (max-width: 500px) {
-    //   margin-bottom: 200px;
-    // }
+   
     .left-side {
       height: 325px;
 
@@ -98,6 +92,8 @@
         font-size: 1.3rem;
         @media (max-width: 1000px) {
           margin-top: 50px;
+          display: flex;
+          width: 80%;
         }
       }
       .project-name {

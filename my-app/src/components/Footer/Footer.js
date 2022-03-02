@@ -1,11 +1,11 @@
 import React from "react";
 import {
   IoLogoOctocat,
-  IoLogoLinkedin,
-  IoLogoInstagram,
-  IoLogoFacebook,
+  IoLogoLinkedin, 
   IoLogoTwitter
 } from "react-icons/io";
+import { AiOutlineMedium } from "react-icons/ai";
+
 import "./Footer.scss";
 function Footer() {
   return (
@@ -34,22 +34,15 @@ function Footer() {
       >
         <IoLogoTwitter className="logo-icon" size={40} color="white" />
       </a>
-      {/* <a
-        href="https://www.instagram.com/reesekunz"
-        className="footer-icon"
-        target="_blank"
-        id="instagram"
-      >
-        <IoLogoInstagram className="logo-icon" size={40} color="white" />
-      </a>
       <a
-        href="https://www.facebook.com/reesespieces21"
+        href="https://medium.com/@reesek/"
         className="footer-icon"
         target="_blank"
-        id="facebook"
+        id="medium"
       >
-        <IoLogoFacebook className="logo-icon" size={40} color="white" />
-      </a> */}
+        <AiOutlineMedium className="logo-icon" size={40} color="white" />
+      </a>
+     
       {/* Mobile view  */}
       <a
         href="https://github.com/reesekunz"
@@ -75,22 +68,15 @@ function Footer() {
       >
         <IoLogoTwitter className="logo-icon" size={30} color="white" />
       </a>
-      {/* <a
-        href="https://www.instagram.com/reesekunz"
-        className="footer-icon-mobile"
-        target="_blank"
-        id="instagram"
-      >
-        <IoLogoInstagram className="logo-icon" size={30} color="white" />
-      </a>
       <a
-        href="https://www.facebook.com/reesespieces21"
+        href="https://medium.com/@reesek/"
         className="footer-icon-mobile"
         target="_blank"
-        id="facebook"
+        id="medium"
       >
-        <IoLogoFacebook className="logo-icon" size={30} color="white" />
-      </a> */}
+        <AiOutlineMedium className="logo-icon" size={30} color="white" />
+      </a>
+     
     </div>
   );
 }

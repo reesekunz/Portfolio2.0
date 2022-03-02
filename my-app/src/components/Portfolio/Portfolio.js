@@ -9,6 +9,9 @@ import { BsArrowRightShort } from "react-icons/bs";
 import Coffee from "../../images/coffee.jpeg";
 import Muffin from "../../images/muffin.jpeg";
 import UniversalDesign from "../../images/universal_design.jpeg";
+import Lambda from "../../images/Lambda.png"
+import OregonState from "../../images/OregonState.png"
+
 
 
 
@@ -125,7 +128,12 @@ Work 01
       
       </div>
       </div>
+     
             </div>
+            {/* <div id='badge-img-wrapper'>
+<img id='badge-img' src={Lambda} />
+
+</div> */}
       <h2 className='secondary-header'>
       Technical Writing Samples
       </h2>      

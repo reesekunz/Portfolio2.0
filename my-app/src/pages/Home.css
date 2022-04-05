@@ -232,6 +232,9 @@
 
     height: 100px;
     padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* flex-direction: column; */
     /* box-shadow: 1px 1px 1px gray; */
   }
@@ -263,9 +266,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    height: 300px;
   }
   .right-side-wrapper {
     width: 100%;
+    height: 100%;
 
     margin: 0;
     padding: 0;
@@ -283,9 +288,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
   }
   .top {
     left: 20px;
+    top: 25px;
   }
   .first-name {
     font-size: 2rem;
@@ -301,5 +308,12 @@
   }
   .role {
     font-size: 1rem;
+  }
+  .container {
+    padding-bottom: 150px;
+  }
+  .home-container {
+    height: 100%;
+    padding-bottom: 150px;
   }
 }

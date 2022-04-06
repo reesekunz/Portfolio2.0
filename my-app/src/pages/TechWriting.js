@@ -1,10 +1,15 @@
 import React, { useState } from 'react'
+import { Link } from "react-router-dom";
+
 import "../App.scss"
 import "./Home.css"
 import { AiOutlineMessage, AiOutlineFire, AiOutlineCodeSandbox, AiOutlineHome, AiOutlineInfoCircle, AiOutlineClose, AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin, AiOutlineMedium } from "react-icons/ai";
 import { BiMenu } from "react-icons/bi";
 import { MdPersonOutline, MdCode } from "react-icons/md";
 import { BsPencil } from "react-icons/bs";
+import Coffee from "../images/coffee.jpeg";
+import Muffin from "../images/muffin.jpeg";
+import UniversalDesign from "../images/universal_design.jpeg";
 
 function TechWriting() {
     const [toggle, setToggle] = useState(true)
@@ -88,12 +93,12 @@ function TechWriting() {
               Blog  
               </p>
               </a>
-            <a href="/contact" className='hamburger-link'>
+            {/* <a href="/contact" className='hamburger-link'>
               <AiOutlineMessage size={25} color='white' />
               <p className='link-p'>
               Contact Me 
               </p>
-              </a>
+              </a> */}
           
 
               </div>
@@ -101,12 +106,79 @@ function TechWriting() {
             </div>
             <h1 className='page-header'>Technical Writing</h1>
             <p className='about-me-p'>
-            Now based in Portland, Oregon, I'm a full-stack web developer and technical writer with a background in marketing from the University of Arizona. Currently I'm working as a developer at a startup called Gemint and also recently obtained a technical writing certificate through Oregon State University. </p>
-            <p className='about-me-p'>
-            During my time as a student at the coding bootcamp Lambda School (now called BloomTech) I gained valuable experience working with technologies such as ReactJS, JavaScript, NodeJS, ExpressJS, and Python. </p>
+   I had a positive experience learning about full-stack web development as a student at Lambda School. I really enjoyed the technical writing aspect of recording documentation, project steps, readme, etc. and decided it was something that I wanted to devote more time improving.                        Recently I obtained my Technical Writing Certificate through Oregon State University. In these courses we learned about a variety of technical writing topics, including accessible documentation, user-centered design, usability, and universal design.           
+
+
+         </p>
+         
             <p className='about-me-p'>
          
-Other interests: 🏀, 📺, 🎮, ⛰️, 🎶 </p>
+            To me, technical writing is the process of taking in information and presenting it in a more effective manner for your audience. As a technical writer that specializes in web development, I have a background that helps me communicate complex steps or problems in a concise and organized way.    </p>
+           <div className='portfolio-wrapper'>
+
+             <div className='project'>
+               <div className='project-left'>
+             <h3 className='project-number'>WORK 01</h3>
+             <h1 className='project-title'>Keurig Owner’s Manual</h1>
+             <p className='project-description'>Sample owner’s manual for the K-Classic Coffee Maker.</p>
+             <button className='details-btn'>
+      <Link className='details-link' to="/Keurig_Owners_Manual.pdf" target="_blank" download>
+              Download PDF
+            </Link>      </button>
+            </div>
+            <div className='project-middle'></div>
+
+            <div className='project-right'>
+            <div id='project-img-wrapper'>
+      <img id='project-img' src={Coffee} />
+      <p className='img-caption'>
+      Photo by Kaboompics on Pexels.com
+      </p>
+      </div>            </div>
+             </div>
+
+             <div className='project'>
+               <div className='project-left'>
+             <h3 className='project-number'>WORK 02</h3>
+             <h1 className='project-title'>Recipe Process and Procedure Flow</h1>
+             <p className='project-description'>A detailed process and procedure flow for a delicious blueberry muffin recipe.</p>
+             <button className='details-btn'>
+      <Link className='details-link' to="/Recipe_Process_Flow.pdf" target="_blank" download>
+              Download PDF
+            </Link>      </button>
+            </div>
+            <div className='project-middle'></div>
+
+            <div className='project-right'>
+            <div id='project-img-wrapper'>
+      <img id='project-img' src={Muffin} />
+      <p className='img-caption'>
+      Photo by Ela Haney on Pexels.com
+      </p>
+      </div>            </div>
+             </div>
+
+             <div className='project' id='three'>
+               <div className='project-left'>
+             <h3 className='project-number'>WORK 03</h3>
+             <h1 className='project-title'>Universal Design Principles Presentation</h1>
+             <p className='project-description'>A PowerPoint presentation highlighting key aspects of universal design principles.</p>
+             <button className='details-btn'>
+      <Link className='details-link' to="/UX_Design.pdf" target="_blank" download>
+              Download PDF
+            </Link>      </button>
+            </div>
+            <div className='project-middle'></div>
+            <div className='project-right'>
+            <div id='project-img-wrapper'>
+      <img id='project-img' src={UniversalDesign} />
+      <p className='img-caption'>
+      Photo by Kaboompics on Pexels.com
+      </p>
+      </div>            </div>
+             </div>
+           </div>
+           
             </div>
     )
 }

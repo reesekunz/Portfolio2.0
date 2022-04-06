@@ -88,12 +88,12 @@ function Blog () {
               Blog  
               </p>
               </a>
-            <a href="/contact" className='hamburger-link'>
+            {/* <a href="/contact" className='hamburger-link'>
               <AiOutlineMessage size={25} color='white' />
               <p className='link-p'>
               Contact Me 
               </p>
-              </a>
+              </a> */}
           
 
               </div>

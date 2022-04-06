@@ -22,15 +22,22 @@ function HamburgerContent () {
 
 
   if (toggle == true) {
+
+    if (window.innerWidth < 1000) {
+      hamburgerContent.style.width = '100%'
+    } else {
+      hamburgerContent.style.width = '30%'
+  
+  }
+  
     hamburgerContent.style.display = 'flex'
-    hamburgerContent.style.width = '30%'
+    
     hamburgerContent.style.transition = `all .5s`;
     hamburgerContent.style.visibility = 'visible'
 
     hamburgerLinks.style.display = 'flex'
 
     
-
   }
   else {
     // hamburgerContent.style.display = 'none'
@@ -51,6 +58,52 @@ function HamburgerContent () {
      
         <div className='home-container'>
           <div className='hamburger-content'>
+            <div className='close-btn-wrapper'>
+            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='indianred' size={40}  />
+            </div>
+            <div className='hamburger-links'>
+            <a href="/" className='hamburger-link'>
+              <AiOutlineHome size={25} color='white' />
+              <p className='link-p'>
+              Home 
+              </p>
+              </a>
+            <a href="/about" className='hamburger-link'>
+              <MdPersonOutline size={25} color='white' />
+              <p className='link-p'>
+              About Me
+              </p>
+              </a>
+            <a href="/portfolio" className='hamburger-link'>
+              <MdCode  size={25} color='white' />
+              <p className='link-p'>
+              Portfolio 
+              </p>
+              </a>
+            <a href="/writing" className='hamburger-link'>
+              <BsPencil size={25} color='white' />
+              <p className='link-p'>
+              Technical Writing 
+              </p>
+              </a>
+            <a href="/blog" className='hamburger-link'>
+              <AiOutlineFire size={25} color='white' />
+              <p className='link-p'>
+              Blog  
+              </p>
+              </a>
+            <a href="/contact" className='hamburger-link'>
+              <AiOutlineMessage size={25} color='white' />
+              <p className='link-p'>
+              Contact Me 
+              </p>
+              </a>
+          
+
+           
+            </div>
+          </div>
+           <div className='hamburger-content'>
             <div className='close-btn-wrapper'>
             <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='indianred' size={40}  />
             </div>

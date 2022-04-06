@@ -17,8 +17,14 @@ function Portfolio () {
       
       
         if (toggle == true) {
+
+          if (window.innerWidth < 1000) {
+            hamburgerContent.style.width = '100%'
+          } else {
+            hamburgerContent.style.width = '30%'
+        
+        }
           hamburgerContent.style.display = 'flex'
-          hamburgerContent.style.width = '30%'
           hamburgerContent.style.transition = `all .5s`;
           hamburgerContent.style.visibility = 'visible'
       

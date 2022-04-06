@@ -105,15 +105,15 @@ function TechWriting() {
 
             </div>
             <h1 className='page-header'>Technical Writing</h1>
-            <p className='about-me-p'>
+            {/* <p className='about-me-p'>
    I had a positive experience learning about full-stack web development as a student at Lambda School. I really enjoyed the technical writing aspect of recording documentation, project steps, readme, etc. and decided it was something that I wanted to devote more time improving.                        Recently I obtained my Technical Writing Certificate through Oregon State University. In these courses we learned about a variety of technical writing topics, including accessible documentation, user-centered design, usability, and universal design.           
 
 
-         </p>
+         </p> */}
          
-            <p className='about-me-p'>
+            {/* <p className='about-me-p'>
          
-            To me, technical writing is the process of taking in information and presenting it in a more effective manner for your audience. As a technical writer that specializes in web development, I have a background that helps me communicate complex steps or problems in a concise and organized way.    </p>
+            To me, technical writing is the process of taking in information and presenting it in a more effective manner for your audience. As a technical writer that specializes in web development, I have a background that helps me communicate complex steps or problems in a concise and organized way.    </p> */}
            <div className='portfolio-wrapper'>
 
              <div className='project'>
@@ -162,7 +162,7 @@ function TechWriting() {
                <div className='project-left'>
              <h3 className='project-number'>WORK 03</h3>
              <h1 className='project-title'>Universal Design Principles Presentation</h1>
-             <p className='project-description'>A PowerPoint presentation highlighting key aspects of universal design principles.</p>
+             <p className='project-description'>A PowerPoint presentation highlighting key aspects of universal design.</p>
              <button className='details-btn'>
       <Link className='details-link' to="/UX_Design.pdf" target="_blank" download>
               Download PDF

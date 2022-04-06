@@ -7,9 +7,9 @@ import { AiOutlineMessage, AiOutlineFire, AiOutlineCodeSandbox, AiOutlineHome, A
 import { BiMenu } from "react-icons/bi";
 import { MdPersonOutline, MdCode } from "react-icons/md";
 import { BsPencil } from "react-icons/bs";
-import Coffee from "../images/coffee.jpeg";
-import Muffin from "../images/muffin.jpeg";
-import UniversalDesign from "../images/universal_design.jpeg";
+import CoordinatedStories from "../images/CoordinatedStories.png";
+import WellDone from "../images/WellDoneScreenshot.png";
+import Gemint2 from "../images/Gemint5.png"
 
 function Portfolio() {
     const [toggle, setToggle] = useState(true)
@@ -119,62 +119,76 @@ function Portfolio() {
              <div className='project'>
                <div className='project-left'>
              <h3 className='project-number'>WORK 01</h3>
-             <h1 className='project-title'>Keurig Owner’s Manual</h1>
-             <p className='project-description'>Sample owner’s manual for the K-Classic Coffee Maker.</p>
+             <h1 className='project-title'>Gemint</h1>
+             <p className='project-description'>Gemint is a platform to connect sports card breakers and buyers with card breaking tools.</p>
              <button className='details-btn'>
-      <Link className='details-link' to="/Keurig_Owners_Manual.pdf" target="_blank" download>
-              Download PDF
+      <Link className='details-link' to="/portfolio/gemint">
+              Project Details
             </Link>      </button>
             </div>
             <div className='project-middle'></div>
 
             <div className='project-right'>
             <div id='project-img-wrapper'>
-      <img id='project-img' src={Coffee} />
-      <p className='img-caption'>
-      Photo by Kaboompics on Pexels.com
-      </p>
+      <img id='project-img' src={Gemint2} />
+      {/* <p className='img-caption'>
+      </p> */}
       </div>            </div>
              </div>
 
              <div className='project'>
                <div className='project-left'>
              <h3 className='project-number'>WORK 02</h3>
-             <h1 className='project-title'>Recipe Process and Procedure Flow</h1>
-             <p className='project-description'>A detailed process and procedure flow for a delicious blueberry muffin recipe.</p>
+             <h1 className='project-title'>WellDone</h1>
+             <p className='project-description'>Built a backend to persist well sensor data and a frontend to
+              visualize which pumps need maintenance for{" "}
+              <a
+                href="https://welldone.org/"
+                target="_blank"
+                className="company-link"
+              >
+                WellDone
+              </a>.</p>
              <button className='details-btn'>
-      <Link className='details-link' to="/Recipe_Process_Flow.pdf" target="_blank" download>
-              Download PDF
+             <Link className='details-link' to="/portfolio/welldone">
+             Project Details
             </Link>      </button>
             </div>
             <div className='project-middle'></div>
 
             <div className='project-right'>
             <div id='project-img-wrapper'>
-      <img id='project-img' src={Muffin} />
-      <p className='img-caption'>
-      Photo by Ela Haney on Pexels.com
-      </p>
+      <img id='project-img' src={WellDone} />
+      {/* <p className='img-caption'>
+      </p> */}
       </div>            </div>
              </div>
 
              <div className='project' id='three'>
                <div className='project-left'>
              <h3 className='project-number'>WORK 03</h3>
-             <h1 className='project-title'>Universal Design Principles Presentation</h1>
-             <p className='project-description'>A PowerPoint presentation highlighting key aspects of universal design principles.</p>
+             <h1 className='project-title'>Coordinated Story Telling </h1>
+             <p className='project-description'>Created a central location for gathering success stories for the{" "}
+              {""}
+              <a
+                className="company-link"
+                href="https://bountifulchildren.org/"
+                target="_blank"
+              >
+                Bountiful Children's Foundation
+              </a>
+              .</p>
              <button className='details-btn'>
-      <Link className='details-link' to="/UX_Design.pdf" target="_blank" download>
-              Download PDF
+             <Link className='details-link' to="/portfolio/storytelling">
+              Project Details
             </Link>      </button>
             </div>
             <div className='project-middle'></div>
             <div className='project-right'>
             <div id='project-img-wrapper'>
-      <img id='project-img' src={UniversalDesign} />
-      <p className='img-caption'>
-      Photo by Kaboompics on Pexels.com
-      </p>
+      <img id='project-img' src={CoordinatedStories} />
+      {/* <p className='img-caption'>
+      </p> */}
       </div>            </div>
              </div>
            </div>

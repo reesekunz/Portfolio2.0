@@ -156,12 +156,13 @@
 }
 .hamburger-content {
   visibility: hidden;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 0;
   background: black;
   z-index: 99;
   display: flex;
+  margin: 0;
 }
 .hamburger-links {
   color: white;

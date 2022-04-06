@@ -10,7 +10,9 @@ import Portfolio from "./pages/Portfolio"
 import TechWriting from "./pages/TechWriting"
 import Blog from "./pages/Blog"
 import ContactMe from "./pages/ContactMe"
-
+import Gemint from "./pages/Gemint"
+import WellDone from "./pages/WellDone"
+import StoryTelling from "./pages/StoryTelling"
 
 
 import ReactGA from "react-ga";
@@ -32,6 +34,10 @@ function App() {
 <Route exact path="/" component={Home} />
 <Route exact path="/about" component={AboutMe} />
 <Route exact path="/portfolio" component={Portfolio} />
+<Route exact path="/portfolio/gemint" component={Gemint} />
+<Route exact path="/portfolio/welldone" component={WellDone} />
+<Route exact path="/portfolio/storytelling" component={StoryTelling} />
+
 <Route exact path="/writing" component={TechWriting} />
 <Route exact path="/blog" component={Blog} />
 <Route exact path="/contact" component={ContactMe} />

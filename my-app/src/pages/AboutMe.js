@@ -101,9 +101,16 @@ function AboutMe () {
             </div>
             <h1 className='page-header'>About Me </h1>
             <p className='about-me-p'>
-            Now based in Portland, Oregon, I'm a full-stack web developer and technical writer with a background in marketing from the University of Arizona. Currently I'm working as a developer at a startup called <a className='about-link' target="_blank" href="https://www.gemint.com/">Gemint</a> and also recently obtained a technical writing certificate through Oregon State University. </p>
+            Now based in Portland, Oregon, I'm a full-stack web developer and technical writer with a background in marketing from the University of Arizona. Currently I'm working as a developer at a startup called <a className='about-link' target="_blank" href="https://www.gemint.com/">Gemint</a>. </p>
             <p className='about-me-p'>
-            During my time as a student at the coding bootcamp <a className='about-link' target="_blank" href="https://www.bloomtech.com/">Lambda School</a> (now called BloomTech) I gained valuable experience working with technologies such as ReactJS, JavaScript, NodeJS, ExpressJS, and Python. </p>
+            During my time as a student at the coding bootcamp <a className='about-link' target="_blank" href="https://www.bloomtech.com/">Lambda School</a> (now called BloomTech) I gained valuable experience working with technologies such as ReactJS, JavaScript, NodeJS, ExpressJS, and Python. To learn more about the projects I've been working on, feel free to check out <a className='about-link' href="/portfolio">my portfolio</a>. </p> 
+            <p className='about-me-p'>
+         
+            I had a positive experience learning about full-stack web development as a student at Lambda School. I really enjoyed the technical writing aspect of recording documentation, project steps, readme, etc. and decided it was something that I wanted to devote more time improving.                        Recently I obtained my Technical Writing Certificate through Oregon State University. In these courses we learned about a variety of technical writing topics, including accessible documentation, user-centered design, usability, and universal design. 
+            You can view the technical writing samples I've worked on <a className='about-link' href="/writing">here</a>. 
+                        {/* To me, technical writing is the process of taking in information and presenting it in a more effective manner for your audience. As a technical writer that specializes in web development, I have a background that helps me communicate complex steps or problems in a concise and organized way.     */}
+           
+         </p>
             <p className='about-me-p'>
          
 Other interests: 🏀, 📺, 🎮, ⛰️, 🎶 </p>

@@ -1,0 +1,115 @@
+.projects-container {
+  color: black;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #fffaf0;
+  // margin-left: 20%;
+  // margin-right: 20%;
+  // @media (max-width: 500px) {
+  //   margin-left: 10%;
+  //   margin-right: 10%;
+  // }
+  .home-link {
+    color: white;
+    text-decoration: none;
+  }
+  .home-link:hover {
+    text-decoration: underline;
+  }
+  .project-img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    // background: black;
+
+    .project-img {
+      height: 100px;
+      width: 40%;
+      @media (max-width: 500px) {
+        width: 80%;
+        margin-top: 50px;
+        height: 80px;
+      }
+    }
+    #gemint-logo {
+      height: 150px;
+      width: 150px;
+    }
+  }
+  .intro-1-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    .intro-1-p {
+      // font-size: 1.3rem;
+
+      .project-a {
+        color: black;
+      }
+    }
+    .intro-1-links {
+      .intro-1-link {
+        // font-size: 1.3rem;
+        margin-right: 20px;
+        margin-left: 20px;
+        color: black;
+      }
+    }
+  }
+  #last {
+    margin-bottom: 200px;
+  }
+  .project-section {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    .project-header {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      //   font-family: "Alike Angular", serif;
+      font-family: "Montserrat";
+
+      font-size: 2rem;
+      display: flex;
+    }
+    .role-header {
+      font-size: 1.2rem;
+      font-family: "Roboto", sans-serif;
+    }
+    .project-p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.2rem;
+      display: flex;
+      .tech-p {
+        border: 1px solid black;
+        padding: 1.5%;
+        margin-right: 30px;
+      }
+    }
+    #tech-stack {
+      @media (max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .role-ul {
+      font-size: 1.2rem;
+
+      .role-li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

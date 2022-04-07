@@ -3,6 +3,9 @@
   //   background: #fffaf0;
   height: 100vh;
   margin-bottom: 400px;
+  background-color: var(--background-color);
+  color: var(--color);
+
   .page-header {
     display: flex;
     justify-content: center;
@@ -11,6 +14,9 @@
     font-size: 2.5rem;
     font-family: "Montserrat";
     color: indianred;
+    color: black;
+    color: var(--color);
+
     margin: 0;
     margin-left: 20%;
     margin-right: 20%;
@@ -24,6 +30,7 @@
   }
   .about-link {
     color: black;
+    color: var(--color);
   }
   .blog-links {
     margin-left: 20%;
@@ -34,8 +41,10 @@
       display: flex;
       justify-content: center;
       color: black;
+      color: var(--color);
+
       padding: 2%;
-      border: 1px solid black;
+      border: 1px solid var(--color);
       text-decoration: none;
       box-shadow: 1px 1px 1px gray;
     }
@@ -49,6 +58,7 @@
         align-items: flex-end;
         margin-top: 100px;
         color: black;
+        color: var(--color);
       }
     }
   }
@@ -69,7 +79,7 @@
       margin-bottom: 100px;
     }
     .company-link {
-      color: black;
+      color: var(--color);
     }
     .project-left {
       width: 40%;
@@ -104,7 +114,7 @@
       }
     }
     .details-btn {
-      background: black;
+      background: var(--color);
       padding-left: 4%;
       padding-right: 4%;
       padding-top: 2%;
@@ -115,7 +125,7 @@
       .details-link {
         font-size: 1.2rem;
         font-family: "Roboto";
-        color: white;
+        color: var(--other-color);
         text-decoration: none;
         cursor: pointer;
       }

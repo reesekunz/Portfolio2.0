@@ -4,15 +4,16 @@ import { AiOutlineMessage, AiOutlineFire, AiOutlineCodeSandbox, AiOutlineHome, A
 import { BiMenu } from "react-icons/bi";
 import { MdPersonOutline, MdCode } from "react-icons/md";
 import { BsPencil } from "react-icons/bs";
-
-
-
 import { Link } from "react-router-dom";
 import ReeseImg2 from "../images/ReeseIMG2.PNG"
+import useLocalStorage from 'use-local-storage'
+
 
 function Home () {
   const [toggle, setToggle] = useState(true)
+  
 
+  
 
 function HamburgerContent () {
   setToggle(!toggle)
@@ -63,31 +64,31 @@ function HamburgerContent () {
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
-              <AiOutlineHome size={25} color='white' />
+              <AiOutlineHome size={25} color='indianred' />
               <p className='link-p'>
               Home 
               </p>
               </a>
             <a href="/about" className='hamburger-link'>
-              <MdPersonOutline size={25} color='white' />
+              <MdPersonOutline size={25} color='indianred' />
               <p className='link-p'>
               About Me
               </p>
               </a>
             <a href="/portfolio" className='hamburger-link'>
-              <MdCode  size={25} color='white' />
+              <MdCode  size={25} color='indianred' />
               <p className='link-p'>
               Portfolio 
               </p>
               </a>
             <a href="/writing" className='hamburger-link'>
-              <BsPencil size={25} color='white' />
+              <BsPencil size={25} color='indianred' />
               <p className='link-p'>
               Technical Writing 
               </p>
               </a>
             <a href="/blog" className='hamburger-link'>
-              <AiOutlineFire size={25} color='white' />
+              <AiOutlineFire size={25} color='indianred' />
               <p className='link-p'>
               Blog  
               </p>
@@ -156,6 +157,7 @@ function HamburgerContent () {
               <BiMenu onClick={HamburgerContent} className='hamburger' color='white' size={50}  />
 
             </div>
+
             <div className='bottom'>
            
             <div className='left-side-wrapper'>

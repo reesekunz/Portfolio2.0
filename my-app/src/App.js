@@ -9,11 +9,10 @@ import AboutMe from "./pages/AboutMe"
 import Portfolio from "./pages/Portfolio"
 import TechWriting from "./pages/TechWriting"
 import Blog from "./pages/Blog"
-import ContactMe from "./pages/ContactMe"
 import Gemint from "./pages/Gemint"
 import WellDone from "./pages/WellDone"
 import StoryTelling from "./pages/StoryTelling"
-
+import DarkMode from "./components/DarkMode"
 
 import ReactGA from "react-ga";
 const trackingId = "UA-156067052-1"; // Google Analytics tracking ID
@@ -24,6 +23,10 @@ function App() {
   
       return (
     <div className="App">
+         <div className='top2'>
+
+      <DarkMode />
+</div>
       {/* <Top /> */}
         {/* <Route exact path="/" component={Home} />
     <Route exact path="/gemint" component={Gemint} />
@@ -40,7 +43,6 @@ function App() {
 
 <Route exact path="/writing" component={TechWriting} />
 <Route exact path="/blog" component={Blog} />
-<Route exact path="/contact" component={ContactMe} />
 
 
       <Helmet>

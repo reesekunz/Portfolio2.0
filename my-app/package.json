@@ -22,6 +22,7 @@
     "react-scroll": "^1.7.15",
     "simple-icons": "^3.12.0",
     "styled-components": "^5.3.3",
+    "use-local-storage": "^2.3.6",
     "yup": "^0.28.0"
   },
   "scripts": {

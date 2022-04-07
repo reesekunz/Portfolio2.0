@@ -1,21 +1,15 @@
 .projects-container {
-  color: black;
+  color: var(--color);
   margin: 0;
   padding: 0;
-  border: 1px solid #fffaf0;
+  border: 1px solid black;
   // margin-left: 20%;
   // margin-right: 20%;
   // @media (max-width: 500px) {
   //   margin-left: 10%;
   //   margin-right: 10%;
   // }
-  .home-link {
-    color: white;
-    text-decoration: none;
-  }
-  .home-link:hover {
-    text-decoration: underline;
-  }
+
   .project-img-wrapper {
     display: flex;
     justify-content: center;
@@ -43,7 +37,7 @@
     align-items: center;
     margin-top: 20px;
     padding-bottom: 50px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--color);
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
     margin-left: 20%;
@@ -52,7 +46,7 @@
       // font-size: 1.3rem;
 
       .project-a {
-        color: black;
+        color: var(--color);
       }
     }
     .intro-1-links {
@@ -60,7 +54,7 @@
         // font-size: 1.3rem;
         margin-right: 20px;
         margin-left: 20px;
-        color: black;
+        color: var(--color);
       }
     }
   }
@@ -69,7 +63,7 @@
   }
   .project-section {
     padding-bottom: 50px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--color);
     margin-left: 20%;
     margin-right: 20%;
     .project-header {
@@ -90,7 +84,7 @@
       font-size: 1.2rem;
       display: flex;
       .tech-p {
-        border: 1px solid black;
+        border: 1px solid var(--color);
         padding: 1.5%;
         margin-right: 30px;
       }

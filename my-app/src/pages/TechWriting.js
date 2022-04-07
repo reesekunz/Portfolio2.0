@@ -55,7 +55,7 @@ function TechWriting() {
     return (
         <div className='container'>
                <div className='top'>
-              <BiMenu onClick={HamburgerContent} className='hamburger' color='black' size={50}  />
+              <BiMenu onClick={HamburgerContent} className='hamburger' color='indianred' size={50}  />
 
             </div>
              <div className='hamburger-content'>
@@ -64,31 +64,31 @@ function TechWriting() {
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
-              <AiOutlineHome size={25} color='white' />
+              <AiOutlineHome size={25} color='indianred' />
               <p className='link-p'>
               Home 
               </p>
               </a>
             <a href="/about" className='hamburger-link'>
-              <MdPersonOutline size={25} color='white' />
+              <MdPersonOutline size={25} color='indianred' />
               <p className='link-p'>
               About Me
               </p>
               </a>
             <a href="/portfolio" className='hamburger-link'>
-              <MdCode  size={25} color='white' />
+              <MdCode  size={25} color='indianred' />
               <p className='link-p'>
               Portfolio 
               </p>
               </a>
             <a href="/writing" className='hamburger-link'>
-              <BsPencil size={25} color='white' />
+              <BsPencil size={25} color='indianred' />
               <p className='link-p'>
               Technical Writing 
               </p>
               </a>
             <a href="/blog" className='hamburger-link'>
-              <AiOutlineFire size={25} color='white' />
+              <AiOutlineFire size={25} color='indianred' />
               <p className='link-p'>
               Blog  
               </p>

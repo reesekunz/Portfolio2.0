@@ -1,0 +1,6 @@
+html[data-theme="light"] {
+  --color: rgb(5, 5, 5);
+  --other-color: #fffaf0;
+  --hamburger-color: rgb(5, 5, 5);
+  --background-color: #fffaf0;
+}

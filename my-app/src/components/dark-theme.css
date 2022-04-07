@@ -1,0 +1,6 @@
+html[data-theme="dark"] {
+  --color: #fffaf0;
+  --other-color: rgb(5, 5, 5);
+  --hamburger-color: #fffaf0;
+  --background-color: rgb(5, 5, 5);
+}

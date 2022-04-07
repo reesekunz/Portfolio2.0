@@ -26,7 +26,7 @@ function Gemint () {
           if (toggle == true) {
   
             if (window.innerWidth < 1000) {
-              hamburgerContent.style.width = '80%'
+              hamburgerContent.style.width = '100%'
             } else {
               hamburgerContent.style.width = '30%'
           

@@ -25,7 +25,7 @@ function HamburgerContent () {
   if (toggle == true) {
 
     if (window.innerWidth < 1000) {
-      hamburgerContent.style.width = '60%'
+      hamburgerContent.style.width = '80%'
     } else {
       hamburgerContent.style.width = '30%'
   

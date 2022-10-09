@@ -227,7 +227,7 @@ function HamburgerContent () {
 
               <btn>PROJECTS</btn>
               </Link>
-              <Link className='resume-btn' to="/portfolio">
+              <Link className='resume-btn' to="/writing">
 
 <btn>WRITING</btn>
 </Link>

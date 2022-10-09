@@ -46,8 +46,14 @@ function Blog () {
         }
       
       }
+     const article = fetch('https://dev.to/api/articles?username=reesekunz')
+      .then((response) => response.json())
+      .then(data => console.log(data))
+      .catch((error) => console.log(error)); 
+      console.log(article)
       
-    return (
+      
+      return (
         <div className='container'>
                <div className='top'>
               <BiMenu onClick={HamburgerContent} className='hamburger' color='indianred' size={50}  />
@@ -100,6 +106,7 @@ function Blog () {
 
             </div>
             <h1 className='page-header'>Blog </h1>
+            
             <div className='blog-links'>
       <a className='blog-link' target="_blank" href="https://medium.com/@reesek/gemint-product-updates-march-2-2022-92f815bea944?source=user_profile---------0-------------------------------">
       Gemint Product Updates — March 2, 2022

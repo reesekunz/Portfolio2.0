@@ -225,15 +225,18 @@ function HamburgerContent () {
 
             <Link className='portfolio-btn' to="/portfolio">
 
-              <btn>PORTFOLIO</btn>
+              <btn>PROJECTS</btn>
               </Link>
+              <Link className='resume-btn' to="/portfolio">
 
-              <Link className='resume-btn' to="/Reese_Resume.pdf" target="_blank" download>
+<btn>WRITING</btn>
+</Link>
+              {/* <Link className='resume-btn' to="/Reese_Resume.pdf" target="_blank" download>
 
               <btn >
                 RESUME
                 </btn>
-                </Link>
+                </Link> */}
 
             </div>
             </div>

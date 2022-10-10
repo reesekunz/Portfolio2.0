@@ -111,7 +111,7 @@ function Gemint () {
             </div>
                 {/* Intro Pt 1. */}
                 <div className='intro-1-wrapper'>
-            <p className='intro-1-p'>            Gemint is a platform to connect sports card breakers and buyers with card breaking tools.
+            <p className='intro-1-p'>            Gemint is a sports card media platform that provides card breaking tools, checklists, and news.
 </p>
             <div className='intro-1-links'>
             <a className='intro-1-link' target="_blank" href="https://www.gemint.com/">View live</a>
@@ -123,8 +123,8 @@ function Gemint () {
             {/* Intro/Description */}
             <div className='project-section'>
             <h3 className='project-header'>Intro</h3>
-            <p className='project-p'>Our site provides tools and services for the sports card community, particulary sports card breakers. In short, card breaking is where 'breakers' will purchase an entire box of cards, and then other buyers will have the chance to 'buy in' to their breaks and get randomly drawn cards from the box. </p>
-            <p className='project-p'>Before Gemint, breakers typically had to use the combination of Instagram and random.org to perform their breaking. They were using Instagram for customer acqusition and random.org for list randomizations, which both work, but aren't ideal - with Instagram they had to worry about hunting down and keeping track of each customer's info (shipping, payment, amount of spots, spot number, etc.) and with random.org they were limited in what they could do in terms of not having a platform that is geared specifically towards breaking. </p>
+            <p className='project-p'>Gemint has been gradually growing for over 2 years now. We originally started as a social media company that targeted relevant sports card news and highlights. Then we developed an online platform geared towards sports card breakers, providing them with various customizable randomizers and checklists to help their efficiency. </p>
+            <p className='project-p'> </p>
 
             </div>
              {/* Role */}
@@ -135,7 +135,7 @@ function Gemint () {
             <ul className='role-ul'>
                 <li className='role-li'>Communicated with multiple stakeholders, including product owners and UX designers, to establish development priorities and delivery timelines</li>
                 <li className='role-li'>Implemented UI/UX for React-based web application with REST API state management</li>
-                <li className='role-li'>Built custom features such as the Randomizers to provide more value on the platform</li>
+                <li className='role-li'>Built custom features such as the Randomizers and Checklists to provide more value to subscribed users</li>
                 {/* <li className='role-li'>Oversaw technical process with short-term contractors, managing Git workflow and assisting where necessary </li> */}
                 {/* <li className='role-li'>Pitched tech to investors? </li> */}
                 {/* <li className='role-li'>Managed twitter account? </li> */}

@@ -120,7 +120,13 @@ function Portfolio() {
                <div className='project-left'>
              <h3 className='project-number'>WORK 01</h3>
              <h1 className='project-title'>Gemint</h1>
-             <p className='project-description'>Gemint is a platform to connect sports card breakers and buyers with card breaking tools.</p>
+             <p className='project-description'>     <a
+                href="https://gemint.com/"
+                target="_blank"
+                className="company-link"
+              >
+                Gemint
+              </a> is a sports card media platform that provides card breaking tools, checklists, and news.</p>
              <button className='details-btn'>
       <Link className='details-link' to="/portfolio/gemint">
               Project Details

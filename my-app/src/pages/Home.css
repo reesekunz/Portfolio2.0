@@ -6,7 +6,8 @@
   width: 30%;
   background: #4682b4;
   background: #4169e1;
-  background: indianred;
+  background: navy;
+  background: navy;
 
   height: 100vh;
   padding-left: 50px;
@@ -71,7 +72,7 @@
   font-family: "Montserrat";
   font-size: 2.5rem;
   font-weight: bold;
-  color: indianred;
+  color: navy;
   margin: 0;
   margin-top: 10px;
 }
@@ -100,7 +101,9 @@
 .portfolio-btn {
   /* border-radius: 8px; */
   color: #fff;
-  background-color: indianred;
+  background-color: navy;
+  background-color: navy;
+
   font-size: 1.2rem;
   border: 0;
   cursor: pointer;
@@ -116,7 +119,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 1px 1px 1px gray;
-  border: 1px solid indianred;
+  border: 1px solid navy;
   text-decoration: none;
 }
 .resume-btn {
@@ -239,7 +242,7 @@
     width: 100%;
     background: #4682b4;
     background: #4169e1;
-    background: indianred;
+    background: navy;
 
     height: 100px;
     padding-left: 50px;
@@ -310,6 +313,7 @@
     top: 25px;
   }
   .first-name {
+    margin-top: 75px;
     font-size: 2rem;
   }
   .last-name {

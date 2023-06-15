@@ -55,51 +55,39 @@ function WellDone () {
     return (
         <div className='projects-container'>
             <div className='top'>
-              <BiMenu onClick={HamburgerContent} className='hamburger' color='indianred' size={50}  />
+              <BiMenu onClick={HamburgerContent} className='hamburger' color='navy' size={50}  />
 
             </div>
              <div className='hamburger-content'>
             <div className='close-btn-wrapper'>
-            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='indianred' size={40}  />
+            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='navy' size={40}  />
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
-              <AiOutlineHome size={25} color='indianred' />
+              <AiOutlineHome size={25} color='navy' />
               <p className='link-p'>
               Home 
               </p>
               </a>
             <a href="/about" className='hamburger-link'>
-              <MdPersonOutline size={25} color='indianred' />
+              <MdPersonOutline size={25} color='navy' />
               <p className='link-p'>
               About Me
               </p>
               </a>
             <a href="/portfolio" className='hamburger-link'>
-              <MdCode  size={25} color='indianred' />
+              <MdCode  size={25} color='navy' />
               <p className='link-p'>
               Portfolio 
               </p>
               </a>
             <a href="/writing" className='hamburger-link'>
-              <BsPencil size={25} color='indianred' />
+              <BsPencil size={25} color='navy' />
               <p className='link-p'>
               Technical Writing 
               </p>
               </a>
-            <a href="/blog" className='hamburger-link'>
-              <AiOutlineFire size={25} color='indianred' />
-              <p className='link-p'>
-              Blog  
-              </p>
-              </a>
-            {/* <a href="/contact" className='hamburger-link'>
-              <AiOutlineMessage size={25} color='white' />
-              <p className='link-p'>
-              Contact Me 
-              </p>
-              </a> */}
-          
+ 
 
               </div>
 

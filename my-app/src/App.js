@@ -8,7 +8,6 @@ import Home from "./pages/Home"
 import AboutMe from "./pages/AboutMe"
 import Portfolio from "./pages/Portfolio"
 import TechWriting from "./pages/TechWriting"
-import Blog from "./pages/Blog"
 import Gemint from "./pages/Gemint"
 import WellDone from "./pages/WellDone"
 import StoryTelling from "./pages/StoryTelling"
@@ -42,7 +41,6 @@ function App() {
 <Route exact path="/portfolio/storytelling" component={StoryTelling} />
 
 <Route exact path="/writing" component={TechWriting} />
-<Route exact path="/blog" component={Blog} />
 
 
       <Helmet>

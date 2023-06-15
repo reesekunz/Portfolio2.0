@@ -60,53 +60,41 @@ function HamburgerContent () {
         <div className='home-container'>
           <div className='hamburger-content'>
             <div className='close-btn-wrapper'>
-            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='indianred' size={40}  />
+            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='navy' size={40}  />
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
-              <AiOutlineHome size={25} color='indianred' />
+              <AiOutlineHome size={25} color='navy' />
               <p className='link-p'>
               Home 
               </p>
               </a>
             <a href="/about" className='hamburger-link'>
-              <MdPersonOutline size={25} color='indianred' />
+              <MdPersonOutline size={25} color='navy' />
               <p className='link-p'>
               About Me
               </p>
               </a>
             <a href="/portfolio" className='hamburger-link'>
-              <MdCode  size={25} color='indianred' />
+              <MdCode  size={25} color='navy' />
               <p className='link-p'>
               Portfolio 
               </p>
               </a>
             <a href="/writing" className='hamburger-link'>
-              <BsPencil size={25} color='indianred' />
+              <BsPencil size={25} color='navy' />
               <p className='link-p'>
               Technical Writing 
               </p>
               </a>
-            <a href="/blog" className='hamburger-link'>
-              <AiOutlineFire size={25} color='indianred' />
-              <p className='link-p'>
-              Blog  
-              </p>
-              </a>
-            {/* <a href="/contact" className='hamburger-link'>
-              <AiOutlineMessage size={25} color='white' />
-              <p className='link-p'>
-              Contact Me 
-              </p>
-              </a>
-           */}
+      
 
            
             </div>
           </div>
            <div className='hamburger-content'>
             <div className='close-btn-wrapper'>
-            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='indianred' size={40}  />
+            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='navy' size={40}  />
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
@@ -133,20 +121,7 @@ function HamburgerContent () {
               Technical Writing 
               </p>
               </a>
-            <a href="/blog" className='hamburger-link'>
-              <AiOutlineFire size={25} color='white' />
-              <p className='link-p'>
-              Blog  
-              </p>
-              </a>
-            <a href="/contact" className='hamburger-link'>
-              <AiOutlineMessage size={25} color='white' />
-              <p className='link-p'>
-              Contact Me 
-              </p>
-              </a>
-          
-
+      
            
             </div>
           </div>
@@ -165,7 +140,7 @@ function HamburgerContent () {
                 Email
               </h3>
               <p className='left-side-p'>
-                reesekunz21@gmail.com
+                reesejkunz@gmail.com
                 </p>
                 </div>
                 <div className='left-side-wrapper'>
@@ -193,20 +168,16 @@ function HamburgerContent () {
 
               <AiOutlineLinkedin className='icon' color='white' size={30} />
               </a>
-              <a className='left-side-p' href="https://medium.com/@reesek" target="_blank">
-
-              <AiOutlineMedium className='icon' color='white' size={30} />
-              </a>
-
+    
               </div>
             </div>
           </div>
                               {/* Middle */}
-          <div className='middle'>
+          {/* <div className='middle'>
             <div className='middle-img-wrapper'>
               <img className='middle-img' src={ReeseImg2} />
             </div>
-          </div>
+          </div> */}
                     {/* Right side */}
 
           <div className='right-side'>

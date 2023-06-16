@@ -59,25 +59,25 @@ function AboutMe () {
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
-              <AiOutlineHome size={25} color='navy' />
+              <AiOutlineHome size={25} color='black' />
               <p className='link-p'>
               Home 
               </p>
               </a>
             <a href="/about" className='hamburger-link'>
-              <MdPersonOutline size={25} color='navy' />
+              <MdPersonOutline size={25} color='black' />
               <p className='link-p'>
               About Me
               </p>
               </a>
             <a href="/portfolio" className='hamburger-link'>
-              <MdCode  size={25} color='navy' />
+              <MdCode  size={25} color='black' />
               <p className='link-p'>
               Portfolio 
               </p>
               </a>
             <a href="/writing" className='hamburger-link'>
-              <BsPencil size={25} color='navy' />
+              <BsPencil size={25} color='black' />
               <p className='link-p'>
               Technical Writing 
               </p>

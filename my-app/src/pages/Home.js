@@ -27,7 +27,7 @@ function HamburgerContent () {
     if (window.innerWidth < 1000) {
       hamburgerContent.style.width = '100%'
     } else {
-      hamburgerContent.style.width = '30%'
+      hamburgerContent.style.width = '30.7%'
   
   }
   
@@ -64,25 +64,25 @@ function HamburgerContent () {
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
-              <AiOutlineHome size={25} color='navy' />
+              <AiOutlineHome size={25} color='black' />
               <p className='link-p'>
               Home 
               </p>
               </a>
             <a href="/about" className='hamburger-link'>
-              <MdPersonOutline size={25} color='navy' />
+              <MdPersonOutline size={25} color='black' />
               <p className='link-p'>
               About Me
               </p>
               </a>
             <a href="/portfolio" className='hamburger-link'>
-              <MdCode  size={25} color='navy' />
+              <MdCode  size={25} color='black' />
               <p className='link-p'>
               Portfolio 
               </p>
               </a>
             <a href="/writing" className='hamburger-link'>
-              <BsPencil size={25} color='navy' />
+              <BsPencil size={25} color='black' />
               <p className='link-p'>
               Technical Writing 
               </p>
@@ -129,7 +129,7 @@ function HamburgerContent () {
           {/* Left side */}
           <div className='left-side'>
           <div className='top'>
-              <BiMenu onClick={HamburgerContent} className='hamburger' color='white' size={50}  />
+              <BiMenu onClick={HamburgerContent} className='hamburger' color='rgb(202, 206, 206)' size={50}  />
 
             </div>
 
@@ -158,26 +158,26 @@ function HamburgerContent () {
               </h3>
               </div>
               <a className='left-side-p' href="https://github.com/reesekunz" target="_blank">
-                              <AiOutlineGithub className='icon' color='white' size={30} />
+                              <AiOutlineGithub className='icon' color='rgb(202, 206, 206)' size={30} />
               </a>
               <a className='left-side-p' href="https://twitter.com/ReeseKunz" target="_blank">
 
-              <AiOutlineTwitter className='icon' color='white' size={30} />
+              <AiOutlineTwitter className='icon' color='rgb(202, 206, 206)' size={30} />
               </a>
               <a className='left-side-p' href="https://www.linkedin.com/in/reesekunz/" target="_blank">
 
-              <AiOutlineLinkedin className='icon' color='white' size={30} />
+              <AiOutlineLinkedin className='icon' color='rgb(202, 206, 206)' size={30} />
               </a>
     
               </div>
             </div>
           </div>
                               {/* Middle */}
-          {/* <div className='middle'>
+          <div className='middle'>
             <div className='middle-img-wrapper'>
-              <img className='middle-img' src={ReeseImg2} />
+              {/* <img className='middle-img' src={ReeseImg2} /> */}
             </div>
-          </div> */}
+          </div>
                     {/* Right side */}
 
           <div className='right-side'>

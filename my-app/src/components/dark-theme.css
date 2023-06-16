@@ -1,6 +1,8 @@
 html[data-theme="dark"] {
-  --color: #fffaf0;
+  --color: rgb(202, 206, 206);
   --other-color: rgb(5, 5, 5);
-  --hamburger-color: #fffaf0;
+  --hamburger-color: rgb(202, 206, 206);
+  --hamburger-color: rgb(5, 5, 5);
+
   --background-color: rgb(5, 5, 5);
 }

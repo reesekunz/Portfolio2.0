@@ -100,7 +100,7 @@ function Gemint () {
             </div>
                 {/* Intro Pt 1. */}
                 <div className='intro-1-wrapper'>
-            <p className='intro-1-p'>            Gemint is a sports card media platform that provides card breaking tools, checklists, and news.
+            <p className='intro-1-p'>      Gemint, a sports card media platform, offers card-breaking resources such as randomizing tools, checklists, and news.
 </p>
             <div className='intro-1-links'>
             <a className='intro-1-link' target="_blank" href="https://www.gemint.com/">View live</a>
@@ -112,19 +112,18 @@ function Gemint () {
             {/* Intro/Description */}
             <div className='project-section'>
             <h3 className='project-header'>Intro</h3>
-            <p className='project-p'>Gemint has been gradually growing for over 2 years now. We originally started as a social media company that targeted relevant sports card news and highlights. Then we developed an online platform geared towards sports card breakers, providing them with various customizable randomizers and checklists to help their efficiency. </p>
-            <p className='project-p'> </p>
+            <p className='project-p'>Gemint began its journey as a dynamic social media company, primarily focusing on delivering timely sports card news and captivating highlights to its users. However, recognizing the evolving needs of the sports card industry, we expanded our offerings and developed a comprehensive online platform tailored specifically for sports card breakers. </p>
+            <p className='project-p'>Our platform now encompasses a range of innovative tools and customizable features designed to enhance the efficiency and productivity of sports card breaking businesses. By providing breakers with advanced randomizing tools and comprehensive checklists, we empower them to streamline their operations and maximize their success in this competitive industry. </p>
 
             </div>
              {/* Role */}
              <div className='project-section'>
             <h3 className='project-header'>Role</h3>
             <h4 className='role-header'>Full-Stack Developer</h4>
-            <p className='project-p'>A fun and challenging part of working at a startup is the variety of roles you work in. Here's what I've worked on so far:</p>
             <ul className='role-ul'>
-                <li className='role-li'>Communicated with multiple stakeholders, including product owners and UX designers, to establish development priorities and delivery timelines</li>
-                <li className='role-li'>Implemented UI/UX for React-based web application with REST API state management</li>
-                <li className='role-li'>Built custom features such as the Randomizers and Checklists to provide more value to subscribed users</li>
+                <li className='role-li'>Led React-based web app UI/UX development, integrating REST API state management to enhance user experience</li>
+                <li className='role-li'> Enhanced the value proposition for 100+ premium users by delivering custom features such as Randomizers and Checklists</li>
+                <li className='role-li'> Managed git workflow for contractors, ensuring code quality, minimizing conflicts, and setting development priorities/timelines</li>
                 {/* <li className='role-li'>Oversaw technical process with short-term contractors, managing Git workflow and assisting where necessary </li> */}
                 {/* <li className='role-li'>Pitched tech to investors? </li> */}
                 {/* <li className='role-li'>Managed twitter account? </li> */}
@@ -146,22 +145,7 @@ function Gemint () {
                 </div>
 
             </div>
-              {/* Stats */}
-              <div className='project-section'>
-            <h3 className='project-header'>Stats</h3>
-            <ul className='role-ul'>
-                <li className='role-li'>442 registered free users since launching product in September, 2021</li>
-                <li className='role-li'>90 paid monthly subscribers for Premium Randomizer since premium offering in October, 2021.</li>
-                <li className='role-li'>Last 30 days: 839 users, 2.3K sessions, 72% bounce rate, 3m 30s session duration</li>
-                <li className='role-li'>15.7K followers on Instagram</li>
-
-                {/* <li className='role-li'>Built custom features such as the Randomizers to provide more value on the platform</li>
-                <li className='role-li'>Oversaw technical process with short-term contractors, managing Git workflow and assisting where necessary </li> */}
-
-            </ul>
-            <p className='project-p'>* Last updated April 6, 2022</p>
-            
-            </div>
+    
                 {/* Testimonial */}
                 <div className='project-section' id='last'>
             <h3 className='project-header'>Testimonial</h3>

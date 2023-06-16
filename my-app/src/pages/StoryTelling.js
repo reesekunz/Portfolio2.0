@@ -119,9 +119,11 @@ function StoryTelling () {
             {/* Intro/Description */}
             <div className='project-section'>
             <h3 className='project-header'>Intro</h3>
-            <p className='project-p'>The core focus of Bountiful Children's Foundation is to reduce malnutrition for infants and toddlers. One way they work to achieve this goal is through spreading and increasing awareness. They record and distribute success stories of children who are much healthier now becuase of their foundation, which in turn leads to more donations since people are seeing first-hand the results of their donations.</p>
-            <p className='project-p'>This backend project was worked on during a Lambda School build week, where myself and one other student had one week to produce a fully functioning backend in order to move on to the next section of our bootcamp. It was our job to build out a backend to store these success stories so that they would be in one central location, drastically helping the Bountiful Children's Foundation with their organization and workflow process. </p>
+            <p className='project-p'>Bountiful Children's Foundation is deeply committed to addressing the critical issue of malnutrition among infants and toddlers. Their primary focus revolves around reducing malnutrition rates, and they employ various strategies to accomplish this mission. One of their key approaches involves spreading awareness about their cause. To achieve this, they capture and distribute inspiring success stories of children who have experienced significant improvements in their health due to the foundation's efforts. By showcasing tangible results, they effectively generate increased support and donations from individuals who witness the transformative impact of their contributions.
 
+</p>
+            <p className='project-p'>During a Lambda School build week, myself and another student had the privilege of working on an impactful project for Bountiful Children's Foundation. With the objective of advancing to the next section of our boot camp, we were tasked with developing a fully functional backend within a limited timeframe of one week. Our primary responsibility was to create a centralized repository where these success stories could be stored, greatly enhancing the foundation's organizational capabilities and workflow processes.</p>
+<p className='project-p'>By building this backend system, we aimed to streamline the foundation's operations and provide a robust platform for managing and accessing these inspiring narratives. This efficient storage solution ensures that the success stories are easily retrievable, enabling the Bountiful Children's Foundation to leverage them effectively in their awareness campaigns. Through our contribution, we hope to have made a tangible difference in the foundation's ability to reach more individuals and garner increased support for their vital mission of combating infant and toddler malnutrition.</p>
             </div>
              {/* Role */}
              <div className='project-section'>
@@ -129,9 +131,9 @@ function StoryTelling () {
             <h4 className='role-header'>Backend Developer </h4>
             {/* <p className='project-p'>A fun and challenging part of working at a startup is the variety of roles you work in. Here's what I've worked on so far:</p> */}
             <ul className='role-ul'>
-            <li className='role-li'>Created models and routes for users, countries, and stories API endpoints with Express </li>
-            <li className='role-li'>Utilized Knex migrations to create database tables and Knex seeds to populate the database </li>
-            <li className='role-li'>Implemented custom middleware validation, authentication with JWT, hashing with bcrypt, and testing with Jest </li>
+            <li className='role-li'>Developed Express models and routes for API endpoints, including users, countries, and stories </li>
+            <li className='role-li'>Utilized Knex migrations for creating database tables and Knex seeds for populating the database</li>
+            <li className='role-li'>Implemented custom middleware for validation, JWT-based authentication, bcrypt-based hashing, and Jest testing </li>
 
             </ul>
             </div>

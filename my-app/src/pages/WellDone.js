@@ -117,9 +117,9 @@ function WellDone () {
             {/* Intro/Description */}
             <div className='project-section'>
             <h3 className='project-header'>Intro</h3>
-            <p className='project-p'>WellDone International is a non-profit organization working to improve access to clean water which is essential to human health, productivity, and well-being. They place proprietary modular sensors on pumps in Cambodia and soon also in Uganda. Their work combines research, technology, and design to catalyze development solutions that are transformative, community-driven, and sustainable. </p>
-            <p className='project-p'>This was part of Lambda School Labs, a 2-month long project where we gained valuable experience working as a team of 8. We took on an existing project and colloborated with real stakeholders; building on the work of Labs 15, they enlisted our teams support in order to build out their internal dashboard for monitoring the real time statuses of pump functionality. This involved building a robust backend and updating the aesthetics and user friendliness of the front-end. In addition, we have included dozens of tests and robust information for future developers on this project, including a detailed readme and API documentation. </p>
-
+            <p className='project-p'>WellDone International is a dedicated non-profit organization committed to enhancing access to clean water, a fundamental requirement for human health, productivity, and overall well-being. With a focus on transformative and community-driven solutions, they leverage research, technology, and design to catalyze sustainable development initiatives. To achieve their mission, WellDone International deploys proprietary modular sensors on pumps, initially in Cambodia and soon expanding to Uganda.</p>
+            <p className='project-p'>Lambda School Labs provided an invaluable opportunity for our team of eight to gain practical experience and contribute to meaningful projects. In collaboration with real stakeholders, we took on the responsibility of building upon the progress made by Labs 15. Specifically, we were entrusted with enhancing the internal dashboard used to monitor the real-time functionality of pumps. Our efforts included developing a robust backend infrastructure while improving the aesthetics and user-friendliness of the front-end interface. </p>
+<p className='project-p'>In addition to our development work, we took the initiative to create a comprehensive set of tests and informative resources for future developers involved in this project. This includes a detailed readme and API documentation, ensuring the continuity and longevity of the project beyond our involvement. We are proud to have contributed to this important cause and are confident that our efforts will make a lasting impact on the communities served by WellDone International.</p>
             </div>
              {/* Role */}
              <div className='project-section'>
@@ -127,9 +127,9 @@ function WellDone () {
             <h4 className='role-header'>Full-stack Developer</h4>
             {/* <p className='project-p'>A fun and challenging part of working at a startup is the variety of roles you work in. Here's what I've worked on so far:</p> */}
             <ul className='role-ul'>
-                <li className='role-li'>Collaborated with backend engineers for API integrations to collect data from well sensors as well as provide CRUD functionality specific to the logged-in user (admin) using React</li>
-                <li className='role-li'>Built production-ready APIs and handled data persistence/user authentication using Node, Express, Postgres</li>
-                <li className='role-li'>Conducted technical/competitor research and communicated with stakeholders to better understand client needs, designed and updated database schema accordingly</li>
+                <li className='role-li'>Developed production-ready APIs with data persistence and secure user authentication using Node, Express, and PostgreSQL</li>
+                <li className='role-li'> Collaborated with back-end engineers to implement API integrations, providing CRUD functionality to logged-in users</li>
+                <li className='role-li'>Performed in-depth technical research and engaged with stakeholders, gaining insights into client needs and database schema</li>
             </ul>
             </div>
              {/* Tech */}

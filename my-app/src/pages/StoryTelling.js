@@ -55,34 +55,34 @@ function StoryTelling () {
     return (
         <div className='projects-container'>
              <div className='top'>
-              <BiMenu onClick={HamburgerContent} className='hamburger' color='navy' size={50}  />
+              <BiMenu onClick={HamburgerContent} className='hamburger' color='#072a49' size={50}  />
 
             </div>
              <div className='hamburger-content'>
             <div className='close-btn-wrapper'>
-            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='navy' size={40}  />
+            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='#072a49' size={40}  />
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
-              <AiOutlineHome size={25} color='navy' />
+              <AiOutlineHome size={25} color='#072a49' />
               <p className='link-p'>
               Home 
               </p>
               </a>
             <a href="/about" className='hamburger-link'>
-              <MdPersonOutline size={25} color='navy' />
+              <MdPersonOutline size={25} color='#072a49' />
               <p className='link-p'>
               About Me
               </p>
               </a>
             <a href="/portfolio" className='hamburger-link'>
-              <MdCode  size={25} color='navy'/>
+              <MdCode  size={25} color='#072a49'/>
               <p className='link-p'>
               Portfolio 
               </p>
               </a>
             <a href="/writing" className='hamburger-link'>
-              <BsPencil size={25} color='navy' />
+              <BsPencil size={25} color='#072a49' />
               <p className='link-p'>
               Technical Writing 
               </p>

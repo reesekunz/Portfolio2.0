@@ -1,7 +1,7 @@
 html[data-theme="light"] {
-  --color: rgb(5, 5, 5);
-  --other-color: rgb(202, 206, 206);
-  --hamburger-color: rgb(202, 206, 206);
+  --color: #072a49;
+  --other-color: #e4cdc3;
+  --hamburger-color: #e4cdc3;
 
-  --background-color: rgb(202, 206, 206);
+  --background-color: #e4cdc3;
 }

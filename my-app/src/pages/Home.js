@@ -27,7 +27,7 @@ function HamburgerContent () {
     if (window.innerWidth < 1000) {
       hamburgerContent.style.width = '100%'
     } else {
-      hamburgerContent.style.width = '30.7%'
+      hamburgerContent.style.width = '31%'
   
   }
   
@@ -60,29 +60,29 @@ function HamburgerContent () {
         <div className='home-container'>
           <div className='hamburger-content'>
             <div className='close-btn-wrapper'>
-            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='navy' size={40}  />
+            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='#072a49' size={40}  />
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
-              <AiOutlineHome size={25} color='black' />
+              <AiOutlineHome size={25} color='#072a49' />
               <p className='link-p'>
               Home 
               </p>
               </a>
             <a href="/about" className='hamburger-link'>
-              <MdPersonOutline size={25} color='black' />
+              <MdPersonOutline size={25} color='#072a49' />
               <p className='link-p'>
               About Me
               </p>
               </a>
             <a href="/portfolio" className='hamburger-link'>
-              <MdCode  size={25} color='black' />
+              <MdCode  size={25} color='#072a49' />
               <p className='link-p'>
               Portfolio 
               </p>
               </a>
             <a href="/writing" className='hamburger-link'>
-              <BsPencil size={25} color='black' />
+              <BsPencil size={25} color='#072a49' />
               <p className='link-p'>
               Technical Writing 
               </p>
@@ -94,7 +94,7 @@ function HamburgerContent () {
           </div>
            <div className='hamburger-content'>
             <div className='close-btn-wrapper'>
-            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='navy' size={40}  />
+            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='#072a49' size={40}  />
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>

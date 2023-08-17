@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "../App.scss"
 import "./Home.css"
-import { AiOutlineMessage, AiOutlineFire, AiOutlineCodeSandbox, AiOutlineHome, AiOutlineInfoCircle, AiOutlineClose, AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin, AiOutlineMedium } from "react-icons/ai";
+import { AiOutlineArrowRight, AiOutlineMessage, AiOutlineFire, AiOutlineCodeSandbox, AiOutlineHome, AiOutlineInfoCircle, AiOutlineClose, AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin, AiOutlineMedium } from "react-icons/ai";
 import { BiMenu } from "react-icons/bi";
 import { MdPersonOutline, MdCode } from "react-icons/md";
 import { BsPencil } from "react-icons/bs";
@@ -55,34 +55,34 @@ function Portfolio() {
     return (
         <div className='container'>
                <div className='top'>
-              <BiMenu onClick={HamburgerContent} className='hamburger' color='navy' size={50}  />
+              <BiMenu onClick={HamburgerContent} className='hamburger' color='#072a49' size={50}  />
 
             </div>
              <div className='hamburger-content'>
             <div className='close-btn-wrapper'>
-            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='navy' size={40}  />
+            <AiOutlineClose onClick={HamburgerContent} className='close-btn' color='#072a49' size={40}  />
             </div>
             <div className='hamburger-links'>
             <a href="/" className='hamburger-link'>
-              <AiOutlineHome size={25} color='black' />
+              <AiOutlineHome size={25} color='#072a49' />
               <p className='link-p'>
               Home 
               </p>
               </a>
             <a href="/about" className='hamburger-link'>
-              <MdPersonOutline size={25} color='black' />
+              <MdPersonOutline size={25} color='#072a49' />
               <p className='link-p'>
               About Me
               </p>
               </a>
             <a href="/portfolio" className='hamburger-link'>
-              <MdCode  size={25} color='black' />
+              <MdCode  size={25} color='#072a49' />
               <p className='link-p'>
               Portfolio 
               </p>
               </a>
             <a href="/writing" className='hamburger-link'>
-              <BsPencil size={25} color='black' />
+              <BsPencil size={25} color='#072a49' />
               <p className='link-p'>
               Technical Writing 
               </p>
@@ -116,8 +116,8 @@ function Portfolio() {
               </a>, a sports card media platform, offers card-breaking resources such as randomizing tools, checklists, and news.</p>
              <button className='details-btn'>
       <Link className='details-link' to="/portfolio/gemint">
-              Project Details
-            </Link>      </button>
+            Project Details  
+            {" "}<AiOutlineArrowRight color='white' size={20} /> </Link>      </button>
             </div>
             <div className='project-middle'></div>
 
@@ -145,7 +145,7 @@ function Portfolio() {
              <button className='details-btn'>
              <Link className='details-link' to="/portfolio/welldone">
              Project Details
-            </Link>      </button>
+             {" "}<AiOutlineArrowRight color='white' size={20} /> </Link>     </button>
             </div>
             <div className='project-middle'></div>
 
@@ -174,7 +174,7 @@ function Portfolio() {
              <button className='details-btn'>
              <Link className='details-link' to="/portfolio/storytelling">
               Project Details
-            </Link>      </button>
+                {" "}<AiOutlineArrowRight color='white' size={20} /> </Link>      </button>
             </div>
             <div className='project-middle'></div>
             <div className='project-right'>
